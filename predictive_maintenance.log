@@ -1,0 +1,1448 @@
+2025-03-18 23:28:38,467 - INFO - Initializing system components...
+2025-03-18 23:28:38,477 - INFO - Loaded model and scaler for engine
+2025-03-18 23:28:38,485 - INFO - Loaded model and scaler for transmission
+2025-03-18 23:28:38,492 - INFO - Loaded model and scaler for brakes
+2025-03-18 23:28:38,500 - INFO - Loaded model and scaler for battery
+2025-03-18 23:28:38,507 - INFO - Loaded model and scaler for electrical
+2025-03-18 23:28:38,507 - INFO - Loaded alert configuration from config/alert_config.json
+2025-03-18 23:28:38,508 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-03-18 23:28:38,508 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-03-18 23:28:38,508 - INFO - Device registered: mock-device-1742320718
+2025-03-18 23:28:38,508 - INFO - Mock device registration successful
+2025-03-18 23:28:38,508 - INFO - All components initialized successfully
+2025-03-18 23:28:38,508 - INFO - Starting model training...
+2025-03-18 23:28:38,513 - INFO - Preprocessed engine_telemetry.csv
+2025-03-18 23:28:38,515 - INFO - Preprocessed transmission_telemetry.csv
+2025-03-18 23:28:38,517 - INFO - Preprocessed brakes_telemetry.csv
+2025-03-18 23:28:38,519 - INFO - Preprocessed battery_telemetry.csv
+2025-03-18 23:28:38,521 - INFO - Preprocessed electrical_telemetry.csv
+2025-03-18 23:28:38,606 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-03-18 23:28:38,682 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-03-18 23:28:38,759 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-03-18 23:28:38,833 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-03-18 23:28:38,904 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-03-18 23:28:38,904 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-03-18 23:28:38,904 - INFO - Model training completed
+2025-03-18 23:28:38,904 - INFO - Starting vehicle monitoring...
+2025-03-18 23:28:38,905 - INFO - Driver alert monitoring started
+2025-03-18 23:28:38,908 - INFO - Mobile alert monitoring started
+2025-03-18 23:28:38,909 - INFO - Mobile alert system monitoring started
+2025-03-18 23:28:38,910 - INFO - Alert generated: transmission - high - 1.00
+2025-03-18 23:28:38,910 - INFO - Vehicle monitoring started
+2025-03-18 23:28:38,911 - INFO - Starting mobile app integration server on port 5000...
+2025-03-18 23:28:38,913 - INFO - Mobile app integration API would start on port 5000
+2025-03-18 23:28:38,915 - INFO - Mobile app integration server started
+2025-03-18 23:28:38,915 - INFO - Alert generated: battery - high - 1.00
+2025-03-18 23:28:43,123 - INFO - Alert generated: transmission - high - 0.76
+2025-03-18 23:28:43,128 - INFO - Alert generated: battery - medium - 0.40
+2025-03-18 23:28:47,181 - INFO - Alert generated: transmission - high - 0.73
+2025-03-18 23:28:47,183 - INFO - Alert generated: brakes - high - 1.00
+2025-03-18 23:28:49,211 - INFO - Alert generated: transmission - high - 1.00
+2025-03-18 23:28:51,237 - INFO - Alert generated: engine - high - 0.97
+2025-03-18 23:28:51,242 - INFO - Alert generated: transmission - high - 1.00
+2025-03-18 23:28:51,247 - INFO - Alert generated: battery - low - 0.34
+2025-03-18 23:28:53,275 - INFO - Alert generated: brakes - high - 0.82
+2025-03-18 23:28:55,308 - INFO - Alert generated: transmission - high - 1.00
+2025-03-18 23:28:55,311 - INFO - Alert generated: brakes - high - 0.86
+2025-03-18 23:28:55,315 - INFO - Alert generated: electrical - high - 1.00
+2025-03-18 23:28:57,074 - INFO - Stopping vehicle monitoring...
+2025-03-18 23:28:57,326 - INFO - Driver alert monitoring stopped
+2025-03-18 23:28:58,922 - INFO - Mobile alert monitoring stopped
+2025-03-18 23:28:58,923 - INFO - Vehicle monitoring stopped
+2025-03-19 13:46:58,596 - INFO - Initializing system components...
+2025-03-19 13:46:58,608 - INFO - Loaded model and scaler for engine
+2025-03-19 13:46:58,615 - INFO - Loaded model and scaler for transmission
+2025-03-19 13:46:58,623 - INFO - Loaded model and scaler for brakes
+2025-03-19 13:46:58,630 - INFO - Loaded model and scaler for battery
+2025-03-19 13:46:58,638 - INFO - Loaded model and scaler for electrical
+2025-03-19 13:46:58,638 - INFO - Loaded alert configuration from config/alert_config.json
+2025-03-19 13:46:58,639 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-03-19 13:46:58,639 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-03-19 13:46:58,639 - INFO - Device registered: mock-device-1742372218
+2025-03-19 13:46:58,639 - INFO - Mock device registration successful
+2025-03-19 13:46:58,639 - INFO - All components initialized successfully
+2025-03-19 13:46:58,639 - INFO - Starting model training...
+2025-03-19 13:46:58,647 - INFO - Preprocessed engine_telemetry.csv
+2025-03-19 13:46:58,650 - INFO - Preprocessed transmission_telemetry.csv
+2025-03-19 13:46:58,652 - INFO - Preprocessed brakes_telemetry.csv
+2025-03-19 13:46:58,654 - INFO - Preprocessed battery_telemetry.csv
+2025-03-19 13:46:58,656 - INFO - Preprocessed electrical_telemetry.csv
+2025-03-19 13:46:58,743 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-03-19 13:46:58,819 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-03-19 13:46:58,897 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-03-19 13:46:58,970 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-03-19 13:46:59,044 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-03-19 13:46:59,044 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-03-19 13:46:59,044 - INFO - Model training completed
+2025-03-19 13:46:59,044 - INFO - Starting vehicle monitoring...
+2025-03-19 13:46:59,046 - INFO - Driver alert monitoring started
+2025-03-19 13:46:59,047 - INFO - Mobile alert monitoring started
+2025-03-19 13:46:59,047 - INFO - Mobile alert system monitoring started
+2025-03-19 13:46:59,048 - INFO - Vehicle monitoring started
+2025-03-19 13:46:59,048 - INFO - Starting mobile app integration server on port 5000...
+2025-03-19 13:46:59,048 - INFO - Alert generated: engine - medium - 0.57
+2025-03-19 13:46:59,049 - INFO - Mobile app integration API would start on port 5000
+2025-03-19 13:46:59,049 - INFO - Mobile app integration server started
+2025-03-19 13:46:59,055 - INFO - Alert generated: battery - medium - 0.69
+2025-03-19 13:47:01,087 - INFO - Alert generated: engine - high - 0.74
+2025-03-19 13:47:01,093 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:01,097 - INFO - Alert generated: battery - high - 1.00
+2025-03-19 13:47:01,099 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:47:03,125 - INFO - Alert generated: transmission - high - 0.91
+2025-03-19 13:47:09,188 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:47:11,220 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:47:11,225 - INFO - Alert generated: transmission - low - 0.34
+2025-03-19 13:47:11,227 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:47:11,231 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:47:13,253 - INFO - Alert generated: engine - medium - 0.58
+2025-03-19 13:47:15,285 - INFO - Alert generated: transmission - high - 0.90
+2025-03-19 13:47:15,290 - INFO - Alert generated: brakes - high - 0.88
+2025-03-19 13:47:17,331 - INFO - Alert generated: battery - high - 0.83
+2025-03-19 13:47:19,353 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:47:19,358 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:19,365 - INFO - Alert generated: electrical - high - 0.90
+2025-03-19 13:47:21,385 - INFO - Alert generated: engine - high - 0.99
+2025-03-19 13:47:21,390 - INFO - Alert generated: transmission - low - 0.21
+2025-03-19 13:47:23,426 - INFO - Alert generated: brakes - high - 0.84
+2025-03-19 13:47:25,450 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:47:25,457 - INFO - Alert generated: transmission - high - 0.98
+2025-03-19 13:47:25,463 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:27,484 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:47:27,489 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:29,525 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:29,527 - INFO - Alert generated: brakes - high - 0.86
+2025-03-19 13:47:29,529 - INFO - Alert generated: battery - high - 0.95
+2025-03-19 13:47:31,557 - INFO - Alert generated: transmission - high - 0.94
+2025-03-19 13:47:31,561 - INFO - Alert generated: battery - high - 0.71
+2025-03-19 13:47:31,564 - INFO - Alert generated: electrical - high - 0.89
+2025-03-19 13:47:33,589 - INFO - Alert generated: engine - medium - 0.65
+2025-03-19 13:47:33,596 - INFO - Alert generated: transmission - high - 0.78
+2025-03-19 13:47:35,634 - INFO - Alert generated: brakes - high - 0.89
+2025-03-19 13:47:37,668 - INFO - Alert generated: brakes - low - 0.28
+2025-03-19 13:47:39,697 - INFO - Alert generated: engine - high - 0.96
+2025-03-19 13:47:39,710 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:41,743 - INFO - Alert generated: brakes - high - 0.99
+2025-03-19 13:47:41,746 - INFO - Alert generated: battery - low - 0.21
+2025-03-19 13:47:41,748 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:45,789 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:47:47,825 - INFO - Alert generated: engine - high - 0.94
+2025-03-19 13:47:47,834 - INFO - Alert generated: brakes - high - 0.80
+2025-03-19 13:47:47,839 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:49,867 - INFO - Alert generated: transmission - high - 0.84
+2025-03-19 13:47:49,871 - INFO - Alert generated: battery - high - 0.90
+2025-03-19 13:47:51,903 - INFO - Alert generated: battery - high - 0.71
+2025-03-19 13:47:51,905 - INFO - Alert generated: electrical - high - 0.98
+2025-03-19 13:47:53,932 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:53,934 - INFO - Alert generated: brakes - high - 0.96
+2025-03-19 13:47:53,938 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:55,957 - INFO - Alert generated: engine - high - 0.94
+2025-03-19 13:47:55,963 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:47:55,967 - INFO - Alert generated: battery - high - 0.94
+2025-03-19 13:47:55,969 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:47:57,989 - INFO - Alert generated: engine - high - 0.99
+2025-03-19 13:48:00,036 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:04,089 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:48:04,092 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:48:04,094 - INFO - Alert generated: battery - low - 0.21
+2025-03-19 13:48:06,124 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:48:10,180 - INFO - Alert generated: engine - high - 0.90
+2025-03-19 13:48:10,186 - INFO - Alert generated: transmission - high - 0.99
+2025-03-19 13:48:10,192 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:12,213 - INFO - Alert generated: engine - high - 0.93
+2025-03-19 13:48:12,220 - INFO - Alert generated: transmission - high - 0.99
+2025-03-19 13:48:14,253 - INFO - Alert generated: transmission - high - 0.93
+2025-03-19 13:48:14,256 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:48:16,284 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:48:18,310 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:48:18,316 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:48:18,318 - INFO - Alert generated: brakes - high - 0.76
+2025-03-19 13:48:18,323 - INFO - Alert generated: electrical - high - 0.84
+2025-03-19 13:48:24,405 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:26,433 - INFO - Alert generated: brakes - medium - 0.46
+2025-03-19 13:48:26,438 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:48:28,466 - INFO - Alert generated: brakes - high - 0.74
+2025-03-19 13:48:28,468 - INFO - Alert generated: battery - high - 1.00
+2025-03-19 13:48:28,470 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:48:30,489 - INFO - Alert generated: engine - high - 0.83
+2025-03-19 13:48:30,499 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:48:32,529 - INFO - Alert generated: transmission - high - 0.83
+2025-03-19 13:48:32,536 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:38,610 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:48:38,614 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:42,665 - INFO - Alert generated: brakes - high - 0.93
+2025-03-19 13:48:42,667 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:48:44,703 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:48:46,730 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:48:48,764 - INFO - Alert generated: battery - high - 0.71
+2025-03-19 13:48:48,767 - INFO - Alert generated: electrical - high - 0.89
+2025-03-19 13:48:52,811 - INFO - Alert generated: brakes - medium - 0.66
+2025-03-19 13:48:54,834 - INFO - Alert generated: engine - high - 0.91
+2025-03-19 13:48:54,839 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:48:54,842 - INFO - Alert generated: brakes - medium - 0.58
+2025-03-19 13:48:56,875 - INFO - Alert generated: transmission - high - 0.97
+2025-03-19 13:48:56,879 - INFO - Alert generated: battery - high - 0.97
+2025-03-19 13:49:00,923 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:49:00,931 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:49:00,935 - INFO - Alert generated: electrical - high - 0.83
+2025-03-19 13:49:02,974 - INFO - Alert generated: battery - high - 0.73
+2025-03-19 13:49:05,011 - INFO - Alert generated: battery - high - 0.70
+2025-03-19 13:49:07,045 - INFO - Alert generated: battery - medium - 0.58
+2025-03-19 13:49:07,047 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:49:09,074 - INFO - Alert generated: brakes - high - 0.79
+2025-03-19 13:49:09,233 - INFO - Stopping vehicle monitoring...
+2025-03-19 13:49:11,089 - INFO - Driver alert monitoring stopped
+2025-03-19 13:49:13,092 - INFO - Mobile alert monitoring stopped
+2025-03-19 13:49:14,140 - INFO - Vehicle monitoring stopped
+2025-03-19 13:49:41,937 - INFO - Initializing system components...
+2025-03-19 13:49:41,949 - INFO - Loaded model and scaler for engine
+2025-03-19 13:49:41,957 - INFO - Loaded model and scaler for transmission
+2025-03-19 13:49:41,965 - INFO - Loaded model and scaler for brakes
+2025-03-19 13:49:41,972 - INFO - Loaded model and scaler for battery
+2025-03-19 13:49:41,980 - INFO - Loaded model and scaler for electrical
+2025-03-19 13:49:41,980 - INFO - Loaded alert configuration from config/alert_config.json
+2025-03-19 13:49:41,980 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-03-19 13:49:41,980 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-03-19 13:49:41,980 - INFO - Device registered: mock-device-1742372381
+2025-03-19 13:49:41,980 - INFO - Mock device registration successful
+2025-03-19 13:49:41,980 - INFO - All components initialized successfully
+2025-03-19 13:49:41,980 - INFO - Starting model training...
+2025-03-19 13:49:41,993 - INFO - Preprocessed engine_telemetry.csv
+2025-03-19 13:49:41,995 - INFO - Preprocessed transmission_telemetry.csv
+2025-03-19 13:49:41,997 - INFO - Preprocessed brakes_telemetry.csv
+2025-03-19 13:49:41,999 - INFO - Preprocessed battery_telemetry.csv
+2025-03-19 13:49:42,001 - INFO - Preprocessed electrical_telemetry.csv
+2025-03-19 13:49:42,089 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-03-19 13:49:42,165 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-03-19 13:49:42,246 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-03-19 13:49:42,321 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-03-19 13:49:42,396 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-03-19 13:49:42,396 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-03-19 13:49:42,396 - INFO - Model training completed
+2025-03-19 13:49:42,396 - INFO - Starting vehicle monitoring...
+2025-03-19 13:49:42,397 - INFO - Driver alert monitoring started
+2025-03-19 13:49:42,400 - INFO - Mobile alert monitoring started
+2025-03-19 13:49:42,402 - INFO - Mobile alert system monitoring started
+2025-03-19 13:49:42,403 - INFO - Vehicle monitoring started
+2025-03-19 13:49:42,403 - INFO - Starting mobile app integration server on port 5000...
+2025-03-19 13:49:42,404 - INFO - Alert generated: brakes - medium - 0.57
+2025-03-19 13:49:42,404 - INFO - Mobile app integration API would start on port 5000
+2025-03-19 13:49:42,407 - INFO - Mobile app integration server started
+2025-03-19 13:49:44,461 - INFO - Alert generated: brakes - low - 0.21
+2025-03-19 13:49:46,492 - INFO - Alert generated: transmission - high - 0.99
+2025-03-19 13:49:46,494 - INFO - Alert generated: brakes - high - 0.96
+2025-03-19 13:49:48,524 - INFO - Alert generated: transmission - high - 0.91
+2025-03-19 13:49:48,527 - INFO - Alert generated: brakes - high - 0.95
+2025-03-19 13:49:50,548 - INFO - Alert generated: transmission - medium - 0.69
+2025-03-19 13:49:50,554 - INFO - Alert generated: electrical - high - 0.83
+2025-03-19 13:49:52,582 - INFO - Alert generated: brakes - high - 0.90
+2025-03-19 13:49:52,586 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:49:54,605 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:49:56,639 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:49:56,648 - INFO - Alert generated: brakes - high - 0.94
+2025-03-19 13:49:58,678 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:49:58,680 - INFO - Alert generated: brakes - high - 0.99
+2025-03-19 13:49:58,682 - INFO - Alert generated: battery - medium - 0.63
+2025-03-19 13:50:00,708 - INFO - Alert generated: transmission - high - 0.99
+2025-03-19 13:50:00,711 - INFO - Alert generated: brakes - high - 0.99
+2025-03-19 13:50:00,715 - INFO - Alert generated: electrical - high - 0.94
+2025-03-19 13:50:02,736 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:50:04,780 - INFO - Alert generated: transmission - high - 0.75
+2025-03-19 13:50:04,786 - INFO - Alert generated: electrical - high - 0.74
+2025-03-19 13:50:06,813 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:50:06,815 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:50:08,846 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:50:08,849 - INFO - Alert generated: battery - high - 0.98
+2025-03-19 13:50:08,851 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:50:10,884 - INFO - Alert generated: battery - high - 1.00
+2025-03-19 13:50:12,908 - INFO - Alert generated: engine - high - 0.99
+2025-03-19 13:50:12,921 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:50:14,941 - INFO - Alert generated: engine - high - 0.90
+2025-03-19 13:50:14,950 - INFO - Alert generated: brakes - medium - 0.56
+2025-03-19 13:50:14,954 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:50:16,980 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:50:16,982 - INFO - Alert generated: brakes - high - 0.95
+2025-03-19 13:50:16,984 - INFO - Alert generated: battery - high - 1.00
+2025-03-19 13:50:19,013 - INFO - Alert generated: brakes - high - 0.96
+2025-03-19 13:50:19,015 - INFO - Alert generated: battery - high - 0.97
+2025-03-19 13:50:23,067 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:50:25,089 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:50:25,096 - INFO - Alert generated: transmission - high - 0.92
+2025-03-19 13:50:25,103 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:50:27,121 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:50:27,123 - INFO - Alert generated: brakes - medium - 0.46
+2025-03-19 13:50:27,127 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:50:29,163 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:50:29,168 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:50:31,183 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:50:33,220 - INFO - Alert generated: transmission - medium - 0.60
+2025-03-19 13:50:37,273 - INFO - Alert generated: transmission - high - 0.87
+2025-03-19 13:50:37,275 - INFO - Alert generated: brakes - high - 0.94
+2025-03-19 13:50:37,279 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:50:39,311 - INFO - Alert generated: battery - low - 0.34
+2025-03-19 13:50:43,355 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:50:45,384 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:50:45,394 - INFO - Alert generated: battery - low - 0.22
+2025-03-19 13:50:47,426 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:50:47,428 - INFO - Alert generated: battery - low - 0.24
+2025-03-19 13:50:49,462 - INFO - Alert generated: battery - high - 0.96
+2025-03-19 13:50:51,483 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:50:51,488 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:50:53,522 - INFO - Alert generated: battery - high - 1.00
+2025-03-19 13:50:55,543 - INFO - Alert generated: engine - high - 0.92
+2025-03-19 13:50:55,555 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:50:57,590 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:51:01,634 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:51:01,642 - INFO - Alert generated: brakes - high - 0.94
+2025-03-19 13:51:01,645 - INFO - Alert generated: battery - medium - 0.59
+2025-03-19 13:51:03,676 - INFO - Alert generated: transmission - low - 0.29
+2025-03-19 13:51:03,678 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:51:05,717 - INFO - Alert generated: battery - high - 0.98
+2025-03-19 13:51:11,791 - INFO - Alert generated: engine - high - 0.93
+2025-03-19 13:51:13,824 - INFO - Alert generated: engine - high - 0.98
+2025-03-19 13:51:13,833 - INFO - Alert generated: brakes - medium - 0.54
+2025-03-19 13:51:15,863 - INFO - Alert generated: transmission - high - 0.98
+2025-03-19 13:51:15,866 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:51:17,891 - INFO - Alert generated: engine - high - 0.93
+2025-03-19 13:51:17,897 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:51:17,901 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:51:19,935 - INFO - Alert generated: battery - high - 0.94
+2025-03-19 13:51:21,971 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:51:23,990 - INFO - Alert generated: engine - high - 0.87
+2025-03-19 13:51:24,000 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:51:24,002 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:51:30,060 - INFO - Alert generated: transmission - medium - 0.53
+2025-03-19 13:51:30,067 - INFO - Alert generated: electrical - high - 0.82
+2025-03-19 13:51:32,090 - INFO - Alert generated: engine - high - 0.91
+2025-03-19 13:51:36,153 - INFO - Alert generated: brakes - low - 0.21
+2025-03-19 13:51:38,184 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:51:38,190 - INFO - Alert generated: transmission - high - 0.79
+2025-03-19 13:51:38,195 - INFO - Alert generated: battery - high - 0.98
+2025-03-19 13:51:40,216 - INFO - Alert generated: engine - high - 1.00
+2025-03-19 13:51:40,222 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:51:40,224 - INFO - Alert generated: brakes - high - 0.87
+2025-03-19 13:51:44,279 - INFO - Alert generated: engine - high - 0.96
+2025-03-19 13:51:44,288 - INFO - Alert generated: brakes - high - 0.96
+2025-03-19 13:51:46,311 - INFO - Alert generated: engine - high - 0.86
+2025-03-19 13:51:46,318 - INFO - Alert generated: brakes - high - 0.95
+2025-03-19 13:51:46,323 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:51:48,350 - INFO - Alert generated: transmission - medium - 0.61
+2025-03-19 13:51:50,388 - INFO - Alert generated: brakes - low - 0.21
+2025-03-19 13:51:52,426 - INFO - Alert generated: battery - high - 0.99
+2025-03-19 13:51:54,462 - INFO - Alert generated: brakes - high - 0.85
+2025-03-19 13:51:54,465 - INFO - Alert generated: battery - medium - 0.64
+2025-03-19 13:51:58,513 - INFO - Alert generated: brakes - low - 0.38
+2025-03-19 13:52:00,548 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:52:02,581 - INFO - Alert generated: transmission - high - 0.93
+2025-03-19 13:52:02,584 - INFO - Alert generated: brakes - high - 0.71
+2025-03-19 13:52:06,633 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:52:08,665 - INFO - Alert generated: engine - high - 0.83
+2025-03-19 13:52:08,671 - INFO - Alert generated: transmission - high - 0.87
+2025-03-19 13:52:08,675 - INFO - Alert generated: battery - high - 0.72
+2025-03-19 13:52:10,710 - INFO - Alert generated: transmission - high - 1.00
+2025-03-19 13:52:10,715 - INFO - Alert generated: battery - high - 0.98
+2025-03-19 13:52:10,717 - INFO - Alert generated: electrical - high - 0.76
+2025-03-19 13:52:12,745 - INFO - Alert generated: brakes - high - 0.96
+2025-03-19 13:52:12,747 - INFO - Alert generated: battery - medium - 0.63
+2025-03-19 13:52:14,767 - INFO - Alert generated: transmission - high - 0.99
+2025-03-19 13:52:14,769 - INFO - Alert generated: brakes - high - 1.00
+2025-03-19 13:52:14,771 - INFO - Alert generated: battery - high - 0.98
+2025-03-19 13:52:16,801 - INFO - Alert generated: brakes - low - 0.29
+2025-03-19 13:52:18,826 - INFO - Alert generated: engine - high - 0.85
+2025-03-19 13:52:18,839 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:52:20,858 - INFO - Alert generated: engine - high - 0.98
+2025-03-19 13:52:20,871 - INFO - Alert generated: electrical - high - 0.99
+2025-03-19 13:52:22,897 - INFO - Alert generated: transmission - high - 0.96
+2025-03-19 13:52:22,903 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:52:24,923 - INFO - Alert generated: engine - high - 0.97
+2025-03-19 13:52:24,930 - INFO - Alert generated: transmission - high - 0.98
+2025-03-19 13:52:24,932 - INFO - Alert generated: brakes - high - 0.92
+2025-03-19 13:52:24,934 - INFO - Alert generated: battery - high - 0.82
+2025-03-19 13:52:24,936 - INFO - Alert generated: electrical - high - 1.00
+2025-03-19 13:52:26,960 - INFO - Alert generated: engine - high - 0.86
+2025-03-19 13:52:26,966 - INFO - Alert generated: transmission - high - 0.82
+2025-03-19 13:52:26,969 - INFO - Alert generated: brakes - high - 0.99
+2025-03-19 13:52:29,004 - INFO - Alert generated: electrical - high - 0.81
+2025-03-19 13:52:31,030 - INFO - Alert generated: brakes - high - 0.93
+2025-03-19 13:52:35,090 - INFO - Alert generated: battery - high - 0.97
+2025-03-19 13:52:35,093 - INFO - Alert generated: electrical - high - 0.89
+2025-03-19 13:52:36,285 - INFO - Stopping vehicle monitoring...
+2025-03-19 13:52:37,102 - INFO - Driver alert monitoring stopped
+2025-03-19 13:52:37,527 - INFO - Mobile alert monitoring stopped
+2025-03-19 13:52:37,527 - INFO - Vehicle monitoring stopped
+2025-04-06 16:04:09,961 - INFO - Preprocessed engine_telemetry.csv
+2025-04-06 16:04:09,965 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-06 16:04:09,968 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-06 16:04:09,971 - INFO - Preprocessed battery_telemetry.csv
+2025-04-06 16:04:09,974 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-06 16:04:10,067 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-06 16:04:10,139 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-06 16:04:10,211 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-06 16:04:10,280 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-06 16:04:10,347 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-06 16:04:10,348 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-06 16:04:31,265 - INFO - Initializing system components...
+2025-04-06 16:04:31,276 - INFO - Loaded model and scaler for engine
+2025-04-06 16:04:31,283 - INFO - Loaded model and scaler for transmission
+2025-04-06 16:04:31,291 - INFO - Loaded model and scaler for brakes
+2025-04-06 16:04:31,298 - INFO - Loaded model and scaler for battery
+2025-04-06 16:04:31,305 - INFO - Loaded model and scaler for electrical
+2025-04-06 16:04:31,306 - INFO - Loaded alert configuration from config/alert_config.json
+2025-04-06 16:04:31,306 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-04-06 16:04:31,306 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-04-06 16:04:31,307 - INFO - Device registered: mock-device-1743935671
+2025-04-06 16:04:31,307 - INFO - Mock device registration successful
+2025-04-06 16:04:31,307 - INFO - All components initialized successfully
+2025-04-06 16:04:31,307 - INFO - Starting model training...
+2025-04-06 16:04:31,316 - INFO - Preprocessed engine_telemetry.csv
+2025-04-06 16:04:31,319 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-06 16:04:31,321 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-06 16:04:31,324 - INFO - Preprocessed battery_telemetry.csv
+2025-04-06 16:04:31,326 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-06 16:04:31,408 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-06 16:04:31,478 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-06 16:04:31,549 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-06 16:04:31,617 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-06 16:04:31,684 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-06 16:04:31,684 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-06 16:04:31,685 - INFO - Model training completed
+2025-04-06 16:04:31,685 - INFO - Starting vehicle monitoring...
+2025-04-06 16:04:31,688 - INFO - Driver alert monitoring started
+2025-04-06 16:04:31,689 - INFO - Mobile alert monitoring started
+2025-04-06 16:04:31,690 - INFO - Mobile alert system monitoring started
+2025-04-06 16:04:31,691 - INFO - Vehicle monitoring started
+2025-04-06 16:04:31,691 - INFO - Starting mobile app integration server on port 5000...
+2025-04-06 16:04:31,692 - INFO - Mobile app integration API would start on port 5000
+2025-04-06 16:04:31,692 - INFO - Mobile app integration server started
+2025-04-06 16:04:31,698 - INFO - Alert generated: electrical - high - 0.97
+2025-04-06 16:04:33,747 - INFO - Alert generated: battery - medium - 0.59
+2025-04-06 16:04:33,752 - INFO - Alert generated: electrical - high - 1.00
+2025-04-06 16:04:35,789 - INFO - Alert generated: brakes - high - 0.95
+2025-04-06 16:04:37,819 - INFO - Alert generated: engine - medium - 0.65
+2025-04-06 16:04:37,825 - INFO - Alert generated: transmission - high - 0.99
+2025-04-06 16:04:37,839 - INFO - Alert generated: electrical - high - 1.00
+2025-04-06 16:04:39,884 - INFO - Alert generated: electrical - high - 1.00
+2025-04-06 16:04:41,913 - INFO - Alert generated: transmission - high - 1.00
+2025-04-06 16:04:41,918 - INFO - Alert generated: brakes - low - 0.30
+2025-04-06 16:04:41,927 - INFO - Alert generated: electrical - high - 1.00
+2025-04-06 16:04:43,958 - INFO - Alert generated: transmission - high - 0.99
+2025-04-06 16:04:46,008 - INFO - Alert generated: brakes - high - 1.00
+2025-04-06 16:04:47,471 - INFO - Stopping vehicle monitoring...
+2025-04-06 16:04:48,030 - INFO - Driver alert monitoring stopped
+2025-04-06 16:04:50,036 - INFO - Mobile alert monitoring stopped
+2025-04-06 16:04:51,708 - INFO - Vehicle monitoring stopped
+2025-04-08 15:02:37,158 - INFO - Initializing system components...
+2025-04-08 15:02:37,169 - INFO - Loaded model and scaler for engine
+2025-04-08 15:02:37,177 - INFO - Loaded model and scaler for transmission
+2025-04-08 15:02:37,184 - INFO - Loaded model and scaler for brakes
+2025-04-08 15:02:37,191 - INFO - Loaded model and scaler for battery
+2025-04-08 15:02:37,199 - INFO - Loaded model and scaler for electrical
+2025-04-08 15:02:37,199 - INFO - Loaded alert configuration from config/alert_config.json
+2025-04-08 15:02:37,199 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-04-08 15:02:37,199 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-04-08 15:02:37,200 - INFO - Device registered: mock-device-1744104757
+2025-04-08 15:02:37,200 - INFO - Mock device registration successful
+2025-04-08 15:02:37,200 - INFO - All components initialized successfully
+2025-04-08 15:02:37,200 - INFO - Starting model training...
+2025-04-08 15:02:37,213 - INFO - Preprocessed engine_telemetry.csv
+2025-04-08 15:02:37,215 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-08 15:02:37,217 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-08 15:02:37,219 - INFO - Preprocessed battery_telemetry.csv
+2025-04-08 15:02:37,221 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-08 15:02:37,305 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-08 15:02:37,377 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-08 15:02:37,449 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-08 15:02:37,516 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-08 15:02:37,583 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-08 15:02:37,583 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-08 15:02:37,583 - INFO - Model training completed
+2025-04-08 15:02:37,583 - INFO - Starting vehicle monitoring...
+2025-04-08 15:02:37,587 - INFO - Driver alert monitoring started
+2025-04-08 15:02:37,588 - INFO - Mobile alert monitoring started
+2025-04-08 15:02:37,589 - INFO - Mobile alert system monitoring started
+2025-04-08 15:02:37,589 - INFO - Vehicle monitoring started
+2025-04-08 15:02:37,589 - INFO - Starting mobile app integration server on port 5000...
+2025-04-08 15:02:37,589 - INFO - Mobile app integration API would start on port 5000
+2025-04-08 15:02:37,590 - INFO - Mobile app integration server started
+2025-04-08 15:02:43,698 - INFO - Alert generated: electrical - high - 0.84
+2025-04-08 15:02:45,737 - INFO - Alert generated: engine - high - 1.00
+2025-04-08 15:02:45,746 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:02:45,757 - INFO - Alert generated: battery - high - 0.97
+2025-04-08 15:02:47,793 - INFO - Alert generated: transmission - high - 0.98
+2025-04-08 15:02:49,828 - INFO - Alert generated: transmission - high - 0.99
+2025-04-08 15:02:49,835 - INFO - Alert generated: battery - high - 0.99
+2025-04-08 15:02:49,838 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:02:51,849 - INFO - Alert generated: engine - high - 1.00
+2025-04-08 15:02:51,854 - INFO - Alert generated: brakes - medium - 0.68
+2025-04-08 15:02:51,857 - INFO - Alert generated: battery - high - 0.91
+2025-04-08 15:02:51,859 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:02:54,778 - INFO - Stopping vehicle monitoring...
+2025-04-08 15:02:55,907 - INFO - Driver alert monitoring stopped
+2025-04-08 15:02:57,607 - INFO - Mobile alert monitoring stopped
+2025-04-08 15:02:57,607 - INFO - Vehicle monitoring stopped
+2025-04-08 15:03:51,506 - INFO - Preprocessed engine_telemetry.csv
+2025-04-08 15:03:51,509 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-08 15:03:51,512 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-08 15:03:51,514 - INFO - Preprocessed battery_telemetry.csv
+2025-04-08 15:03:51,516 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-08 15:03:51,597 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-08 15:03:51,668 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-08 15:03:51,740 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-08 15:03:51,808 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-08 15:03:51,876 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-08 15:03:51,876 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-08 15:04:42,327 - INFO - Initializing system components...
+2025-04-08 15:04:42,338 - INFO - Loaded model and scaler for engine
+2025-04-08 15:04:42,346 - INFO - Loaded model and scaler for transmission
+2025-04-08 15:04:42,353 - INFO - Loaded model and scaler for brakes
+2025-04-08 15:04:42,361 - INFO - Loaded model and scaler for battery
+2025-04-08 15:04:42,368 - INFO - Loaded model and scaler for electrical
+2025-04-08 15:04:42,369 - INFO - Loaded alert configuration from config/alert_config.json
+2025-04-08 15:04:42,369 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-04-08 15:04:42,369 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-04-08 15:04:42,370 - INFO - Device registered: mock-device-1744104882
+2025-04-08 15:04:42,370 - INFO - Mock device registration successful
+2025-04-08 15:04:42,370 - INFO - All components initialized successfully
+2025-04-08 15:04:42,370 - INFO - Starting model training...
+2025-04-08 15:04:42,380 - INFO - Preprocessed engine_telemetry.csv
+2025-04-08 15:04:42,382 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-08 15:04:42,384 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-08 15:04:42,386 - INFO - Preprocessed battery_telemetry.csv
+2025-04-08 15:04:42,388 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-08 15:04:42,475 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-08 15:04:42,546 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-08 15:04:42,618 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-08 15:04:42,686 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-08 15:04:42,752 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-08 15:04:42,753 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-08 15:04:42,753 - INFO - Model training completed
+2025-04-08 15:04:42,753 - INFO - Starting vehicle monitoring...
+2025-04-08 15:04:42,754 - INFO - Driver alert monitoring started
+2025-04-08 15:04:42,757 - INFO - Mobile alert monitoring started
+2025-04-08 15:04:42,758 - INFO - Mobile alert system monitoring started
+2025-04-08 15:04:42,758 - INFO - Vehicle monitoring started
+2025-04-08 15:04:42,758 - INFO - Starting mobile app integration server on port 5000...
+2025-04-08 15:04:42,759 - INFO - Mobile app integration API would start on port 5000
+2025-04-08 15:04:42,759 - INFO - Mobile app integration server started
+2025-04-08 15:04:42,764 - INFO - Alert generated: battery - high - 0.99
+2025-04-08 15:04:42,766 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:04:44,802 - INFO - Alert generated: brakes - high - 0.97
+2025-04-08 15:04:44,807 - INFO - Alert generated: battery - high - 0.97
+2025-04-08 15:04:46,856 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:04:48,900 - INFO - Alert generated: battery - high - 0.99
+2025-04-08 15:04:50,941 - INFO - Alert generated: brakes - high - 0.86
+2025-04-08 15:04:52,982 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:04:52,989 - INFO - Alert generated: brakes - high - 0.93
+2025-04-08 15:04:52,994 - INFO - Alert generated: battery - high - 0.83
+2025-04-08 15:04:55,046 - INFO - Alert generated: electrical - high - 0.90
+2025-04-08 15:04:57,082 - INFO - Alert generated: brakes - high - 0.95
+2025-04-08 15:04:57,086 - INFO - Alert generated: battery - high - 0.94
+2025-04-08 15:04:57,090 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:04:59,126 - INFO - Alert generated: battery - high - 0.95
+2025-04-08 15:04:59,130 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:05:01,165 - INFO - Alert generated: brakes - high - 0.86
+2025-04-08 15:05:01,175 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:05:03,207 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:05:03,211 - INFO - Alert generated: brakes - high - 0.89
+2025-04-08 15:05:03,215 - INFO - Alert generated: battery - high - 0.92
+2025-04-08 15:05:03,219 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:05:05,246 - INFO - Alert generated: transmission - high - 0.98
+2025-04-08 15:05:05,260 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:05:06,869 - INFO - Stopping vehicle monitoring...
+2025-04-08 15:05:07,272 - INFO - Driver alert monitoring stopped
+2025-04-08 15:05:07,773 - INFO - Mobile alert monitoring stopped
+2025-04-08 15:05:07,774 - INFO - Vehicle monitoring stopped
+2025-04-08 15:08:48,178 - INFO - Initializing system components...
+2025-04-08 15:08:48,188 - INFO - Loaded model and scaler for engine
+2025-04-08 15:08:48,197 - INFO - Loaded model and scaler for transmission
+2025-04-08 15:08:48,205 - INFO - Loaded model and scaler for brakes
+2025-04-08 15:08:48,213 - INFO - Loaded model and scaler for battery
+2025-04-08 15:08:48,220 - INFO - Loaded model and scaler for electrical
+2025-04-08 15:08:48,220 - INFO - Loaded alert configuration from config/alert_config.json
+2025-04-08 15:08:48,221 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-04-08 15:08:48,221 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-04-08 15:08:48,221 - INFO - Device registered: mock-device-1744105128
+2025-04-08 15:08:48,221 - INFO - Mock device registration successful
+2025-04-08 15:08:48,221 - INFO - All components initialized successfully
+2025-04-08 15:08:48,221 - INFO - Starting model training...
+2025-04-08 15:08:48,236 - INFO - Preprocessed engine_telemetry.csv
+2025-04-08 15:08:48,238 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-08 15:08:48,241 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-08 15:08:48,243 - INFO - Preprocessed battery_telemetry.csv
+2025-04-08 15:08:48,245 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-08 15:08:48,330 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-08 15:08:48,401 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-08 15:08:48,474 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-08 15:08:48,542 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-08 15:08:48,614 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-08 15:08:48,614 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-08 15:08:48,615 - INFO - Model training completed
+2025-04-08 15:08:48,615 - INFO - Starting vehicle monitoring...
+2025-04-08 15:08:48,616 - INFO - Driver alert monitoring started
+2025-04-08 15:08:48,619 - INFO - Alert generated: engine - high - 0.97
+2025-04-08 15:08:48,628 - INFO - Alert generated: battery - high - 0.82
+2025-04-08 15:08:48,628 - INFO - Mobile alert monitoring started
+2025-04-08 15:08:48,631 - INFO - Alert generated: electrical - high - 0.74
+2025-04-08 15:08:48,631 - INFO - Mobile alert system monitoring started
+2025-04-08 15:08:48,631 - INFO - Vehicle monitoring started
+2025-04-08 15:08:48,631 - INFO - Starting mobile app integration server on port 5000...
+2025-04-08 15:08:48,631 - INFO - Mobile app integration API would start on port 5000
+2025-04-08 15:08:48,631 - INFO - Mobile app integration server started
+2025-04-08 15:08:52,679 - INFO - Alert generated: transmission - medium - 0.42
+2025-04-08 15:08:52,685 - INFO - Alert generated: brakes - low - 0.21
+2025-04-08 15:08:52,694 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:08:54,728 - INFO - Alert generated: transmission - high - 0.98
+2025-04-08 15:08:54,734 - INFO - Alert generated: brakes - medium - 0.69
+2025-04-08 15:08:56,776 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:08:58,806 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:08:58,809 - INFO - Alert generated: brakes - medium - 0.49
+2025-04-08 15:08:58,814 - INFO - Alert generated: electrical - high - 1.00
+2025-04-08 15:09:00,842 - INFO - Alert generated: transmission - high - 1.00
+2025-04-08 15:09:00,848 - INFO - Alert generated: brakes - high - 0.88
+2025-04-08 15:09:00,853 - INFO - Alert generated: battery - high - 0.99
+2025-04-08 15:09:03,739 - INFO - Stopping vehicle monitoring...
+2025-04-08 15:09:04,908 - INFO - Driver alert monitoring stopped
+2025-04-08 15:09:06,914 - INFO - Mobile alert monitoring stopped
+2025-04-08 15:09:08,650 - INFO - Vehicle monitoring stopped
+2025-04-08 15:10:06,533 - INFO - Preprocessed engine_telemetry.csv
+2025-04-08 15:10:06,536 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-08 15:10:06,538 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-08 15:10:06,540 - INFO - Preprocessed battery_telemetry.csv
+2025-04-08 15:10:06,542 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-08 15:10:06,624 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-08 15:10:06,694 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-08 15:10:06,766 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-08 15:10:06,835 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-08 15:10:06,903 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-08 15:10:06,903 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-11 20:45:16,857 - INFO - Initializing system components...
+2025-04-11 20:45:16,865 - ERROR - Error loading model for engine: Did not recognise loaded array layout
+2025-04-11 20:45:16,867 - ERROR - Error loading model for transmission: Did not recognise loaded array layout
+2025-04-11 20:45:16,870 - ERROR - Error loading model for brakes: Did not recognise loaded array layout
+2025-04-11 20:45:16,873 - ERROR - Error loading model for battery: Did not recognise loaded array layout
+2025-04-11 20:45:16,875 - ERROR - Error loading model for electrical: Did not recognise loaded array layout
+2025-04-11 20:45:16,877 - INFO - Loaded alert configuration from config/alert_config.json
+2025-04-11 20:45:16,879 - INFO - Loaded mobile alert configuration from config/mobile_config.json
+2025-04-11 20:45:16,880 - WARNING - Firebase Admin SDK not installed, push notifications disabled
+2025-04-11 20:45:16,882 - INFO - Device registered: mock-device-1744384516
+2025-04-11 20:45:16,882 - INFO - Mock device registration successful
+2025-04-11 20:45:16,883 - INFO - All components initialized successfully
+2025-04-11 20:45:16,883 - INFO - Starting model training...
+2025-04-11 20:45:16,898 - INFO - Preprocessed engine_telemetry.csv
+2025-04-11 20:45:16,925 - INFO - Preprocessed transmission_telemetry.csv
+2025-04-11 20:45:16,946 - INFO - Preprocessed brakes_telemetry.csv
+2025-04-11 20:45:16,966 - INFO - Preprocessed battery_telemetry.csv
+2025-04-11 20:45:16,983 - INFO - Preprocessed electrical_telemetry.csv
+2025-04-11 20:45:17,231 - INFO - Saved model and scaler for engine_telemetry.csv
+2025-04-11 20:45:17,469 - INFO - Saved model and scaler for transmission_telemetry.csv
+2025-04-11 20:45:17,702 - INFO - Saved model and scaler for brakes_telemetry.csv
+2025-04-11 20:45:17,920 - INFO - Saved model and scaler for battery_telemetry.csv
+2025-04-11 20:45:18,157 - INFO - Saved model and scaler for electrical_telemetry.csv
+2025-04-11 20:45:18,158 - INFO - Predictive Maintenance Pipeline Completed Successfully
+2025-04-11 20:45:18,160 - INFO - Model training completed
+2025-04-11 20:45:18,161 - INFO - Starting vehicle monitoring...
+2025-04-11 20:45:18,162 - INFO - Driver alert monitoring started
+2025-04-11 20:45:18,162 - WARNING - No model available for component: engine
+2025-04-11 20:45:18,163 - INFO - Mobile alert monitoring started
+2025-04-11 20:45:18,163 - WARNING - No model available for component: transmission
+2025-04-11 20:45:18,164 - INFO - Mobile alert system monitoring started
+2025-04-11 20:45:18,164 - WARNING - No model available for component: brakes
+2025-04-11 20:45:18,165 - WARNING - No model available for component: battery
+2025-04-11 20:45:18,166 - INFO - Vehicle monitoring started
+2025-04-11 20:45:18,166 - WARNING - No model available for component: electrical
+2025-04-11 20:45:18,166 - INFO - Starting mobile app integration server on port 5000...
+2025-04-11 20:45:18,168 - INFO - Mobile app integration API would start on port 5000
+2025-04-11 20:45:18,168 - INFO - Mobile app integration server started
+2025-04-11 20:45:20,174 - WARNING - No model available for component: engine
+2025-04-11 20:45:20,177 - WARNING - No model available for component: transmission
+2025-04-11 20:45:20,179 - WARNING - No model available for component: brakes
+2025-04-11 20:45:20,181 - WARNING - No model available for component: battery
+2025-04-11 20:45:20,182 - WARNING - No model available for component: electrical
+2025-04-11 20:45:22,188 - WARNING - No model available for component: engine
+2025-04-11 20:45:22,191 - WARNING - No model available for component: transmission
+2025-04-11 20:45:22,192 - WARNING - No model available for component: brakes
+2025-04-11 20:45:22,193 - WARNING - No model available for component: battery
+2025-04-11 20:45:22,193 - WARNING - No model available for component: electrical
+2025-04-11 20:45:24,203 - WARNING - No model available for component: engine
+2025-04-11 20:45:24,207 - WARNING - No model available for component: transmission
+2025-04-11 20:45:24,208 - WARNING - No model available for component: brakes
+2025-04-11 20:45:24,210 - WARNING - No model available for component: battery
+2025-04-11 20:45:24,211 - WARNING - No model available for component: electrical
+2025-04-11 20:45:26,225 - WARNING - No model available for component: engine
+2025-04-11 20:45:26,228 - WARNING - No model available for component: transmission
+2025-04-11 20:45:26,230 - WARNING - No model available for component: brakes
+2025-04-11 20:45:26,236 - WARNING - No model available for component: battery
+2025-04-11 20:45:26,239 - WARNING - No model available for component: electrical
+2025-04-11 20:45:28,249 - WARNING - No model available for component: engine
+2025-04-11 20:45:28,249 - WARNING - No model available for component: transmission
+2025-04-11 20:45:28,253 - WARNING - No model available for component: brakes
+2025-04-11 20:45:28,254 - WARNING - No model available for component: battery
+2025-04-11 20:45:28,256 - WARNING - No model available for component: electrical
+2025-04-11 20:45:30,258 - WARNING - No model available for component: engine
+2025-04-11 20:45:30,259 - WARNING - No model available for component: transmission
+2025-04-11 20:45:30,261 - WARNING - No model available for component: brakes
+2025-04-11 20:45:30,269 - WARNING - No model available for component: battery
+2025-04-11 20:45:30,271 - WARNING - No model available for component: electrical
+2025-04-11 20:45:32,279 - WARNING - No model available for component: engine
+2025-04-11 20:45:32,280 - WARNING - No model available for component: transmission
+2025-04-11 20:45:32,282 - WARNING - No model available for component: brakes
+2025-04-11 20:45:32,282 - WARNING - No model available for component: battery
+2025-04-11 20:45:32,284 - WARNING - No model available for component: electrical
+2025-04-11 20:45:34,298 - WARNING - No model available for component: engine
+2025-04-11 20:45:34,301 - WARNING - No model available for component: transmission
+2025-04-11 20:45:34,302 - WARNING - No model available for component: brakes
+2025-04-11 20:45:34,304 - WARNING - No model available for component: battery
+2025-04-11 20:45:34,305 - WARNING - No model available for component: electrical
+2025-04-11 20:45:36,312 - WARNING - No model available for component: engine
+2025-04-11 20:45:36,314 - WARNING - No model available for component: transmission
+2025-04-11 20:45:36,315 - WARNING - No model available for component: brakes
+2025-04-11 20:45:36,316 - WARNING - No model available for component: battery
+2025-04-11 20:45:36,318 - WARNING - No model available for component: electrical
+2025-04-11 20:45:38,321 - WARNING - No model available for component: engine
+2025-04-11 20:45:38,324 - WARNING - No model available for component: transmission
+2025-04-11 20:45:38,325 - WARNING - No model available for component: brakes
+2025-04-11 20:45:38,325 - WARNING - No model available for component: battery
+2025-04-11 20:45:38,326 - WARNING - No model available for component: electrical
+2025-04-11 20:45:40,336 - WARNING - No model available for component: engine
+2025-04-11 20:45:40,339 - WARNING - No model available for component: transmission
+2025-04-11 20:45:40,342 - WARNING - No model available for component: brakes
+2025-04-11 20:45:40,342 - WARNING - No model available for component: battery
+2025-04-11 20:45:40,345 - WARNING - No model available for component: electrical
+2025-04-11 20:45:42,354 - WARNING - No model available for component: engine
+2025-04-11 20:45:42,356 - WARNING - No model available for component: transmission
+2025-04-11 20:45:42,357 - WARNING - No model available for component: brakes
+2025-04-11 20:45:42,359 - WARNING - No model available for component: battery
+2025-04-11 20:45:42,360 - WARNING - No model available for component: electrical
+2025-04-11 20:45:44,382 - WARNING - No model available for component: engine
+2025-04-11 20:45:44,383 - WARNING - No model available for component: transmission
+2025-04-11 20:45:44,385 - WARNING - No model available for component: brakes
+2025-04-11 20:45:44,386 - WARNING - No model available for component: battery
+2025-04-11 20:45:44,386 - WARNING - No model available for component: electrical
+2025-04-11 20:45:46,396 - WARNING - No model available for component: engine
+2025-04-11 20:45:46,398 - WARNING - No model available for component: transmission
+2025-04-11 20:45:46,398 - WARNING - No model available for component: brakes
+2025-04-11 20:45:46,399 - WARNING - No model available for component: battery
+2025-04-11 20:45:46,401 - WARNING - No model available for component: electrical
+2025-04-11 20:45:48,407 - WARNING - No model available for component: engine
+2025-04-11 20:45:48,409 - WARNING - No model available for component: transmission
+2025-04-11 20:45:48,410 - WARNING - No model available for component: brakes
+2025-04-11 20:45:48,410 - WARNING - No model available for component: battery
+2025-04-11 20:45:48,410 - WARNING - No model available for component: electrical
+2025-04-11 20:45:50,418 - WARNING - No model available for component: engine
+2025-04-11 20:45:50,419 - WARNING - No model available for component: transmission
+2025-04-11 20:45:50,419 - WARNING - No model available for component: brakes
+2025-04-11 20:45:50,420 - WARNING - No model available for component: battery
+2025-04-11 20:45:50,420 - WARNING - No model available for component: electrical
+2025-04-11 20:45:52,424 - WARNING - No model available for component: engine
+2025-04-11 20:45:52,426 - WARNING - No model available for component: transmission
+2025-04-11 20:45:52,426 - WARNING - No model available for component: brakes
+2025-04-11 20:45:52,427 - WARNING - No model available for component: battery
+2025-04-11 20:45:52,428 - WARNING - No model available for component: electrical
+2025-04-11 20:45:54,438 - WARNING - No model available for component: engine
+2025-04-11 20:45:54,439 - WARNING - No model available for component: transmission
+2025-04-11 20:45:54,440 - WARNING - No model available for component: brakes
+2025-04-11 20:45:54,440 - WARNING - No model available for component: battery
+2025-04-11 20:45:54,441 - WARNING - No model available for component: electrical
+2025-04-11 20:45:56,450 - WARNING - No model available for component: engine
+2025-04-11 20:45:56,457 - WARNING - No model available for component: transmission
+2025-04-11 20:45:56,458 - WARNING - No model available for component: brakes
+2025-04-11 20:45:56,459 - WARNING - No model available for component: battery
+2025-04-11 20:45:56,459 - WARNING - No model available for component: electrical
+2025-04-11 20:45:58,466 - WARNING - No model available for component: engine
+2025-04-11 20:45:58,467 - WARNING - No model available for component: transmission
+2025-04-11 20:45:58,470 - WARNING - No model available for component: brakes
+2025-04-11 20:45:58,471 - WARNING - No model available for component: battery
+2025-04-11 20:45:58,472 - WARNING - No model available for component: electrical
+2025-04-11 20:46:00,481 - WARNING - No model available for component: engine
+2025-04-11 20:46:00,482 - WARNING - No model available for component: transmission
+2025-04-11 20:46:00,484 - WARNING - No model available for component: brakes
+2025-04-11 20:46:00,485 - WARNING - No model available for component: battery
+2025-04-11 20:46:00,485 - WARNING - No model available for component: electrical
+2025-04-11 20:46:02,487 - WARNING - No model available for component: engine
+2025-04-11 20:46:02,489 - WARNING - No model available for component: transmission
+2025-04-11 20:46:02,489 - WARNING - No model available for component: brakes
+2025-04-11 20:46:02,490 - WARNING - No model available for component: battery
+2025-04-11 20:46:02,491 - WARNING - No model available for component: electrical
+2025-04-11 20:46:04,497 - WARNING - No model available for component: engine
+2025-04-11 20:46:04,499 - WARNING - No model available for component: transmission
+2025-04-11 20:46:04,499 - WARNING - No model available for component: brakes
+2025-04-11 20:46:04,500 - WARNING - No model available for component: battery
+2025-04-11 20:46:04,500 - WARNING - No model available for component: electrical
+2025-04-11 20:46:06,509 - WARNING - No model available for component: engine
+2025-04-11 20:46:06,510 - WARNING - No model available for component: transmission
+2025-04-11 20:46:06,511 - WARNING - No model available for component: brakes
+2025-04-11 20:46:06,511 - WARNING - No model available for component: battery
+2025-04-11 20:46:06,512 - WARNING - No model available for component: electrical
+2025-04-11 20:46:08,522 - WARNING - No model available for component: engine
+2025-04-11 20:46:08,525 - WARNING - No model available for component: transmission
+2025-04-11 20:46:08,525 - WARNING - No model available for component: brakes
+2025-04-11 20:46:08,528 - WARNING - No model available for component: battery
+2025-04-11 20:46:08,529 - WARNING - No model available for component: electrical
+2025-04-11 20:46:10,540 - WARNING - No model available for component: engine
+2025-04-11 20:46:10,543 - WARNING - No model available for component: transmission
+2025-04-11 20:46:10,544 - WARNING - No model available for component: brakes
+2025-04-11 20:46:10,546 - WARNING - No model available for component: battery
+2025-04-11 20:46:10,547 - WARNING - No model available for component: electrical
+2025-04-11 20:46:12,554 - WARNING - No model available for component: engine
+2025-04-11 20:46:12,556 - WARNING - No model available for component: transmission
+2025-04-11 20:46:12,557 - WARNING - No model available for component: brakes
+2025-04-11 20:46:12,558 - WARNING - No model available for component: battery
+2025-04-11 20:46:12,560 - WARNING - No model available for component: electrical
+2025-04-11 20:46:14,569 - WARNING - No model available for component: engine
+2025-04-11 20:46:14,571 - WARNING - No model available for component: transmission
+2025-04-11 20:46:14,572 - WARNING - No model available for component: brakes
+2025-04-11 20:46:14,573 - WARNING - No model available for component: battery
+2025-04-11 20:46:14,575 - WARNING - No model available for component: electrical
+2025-04-11 20:46:16,584 - WARNING - No model available for component: engine
+2025-04-11 20:46:16,585 - WARNING - No model available for component: transmission
+2025-04-11 20:46:16,585 - WARNING - No model available for component: brakes
+2025-04-11 20:46:16,587 - WARNING - No model available for component: battery
+2025-04-11 20:46:16,588 - WARNING - No model available for component: electrical
+2025-04-11 20:46:18,597 - WARNING - No model available for component: engine
+2025-04-11 20:46:18,599 - WARNING - No model available for component: transmission
+2025-04-11 20:46:18,601 - WARNING - No model available for component: brakes
+2025-04-11 20:46:18,603 - WARNING - No model available for component: battery
+2025-04-11 20:46:18,604 - WARNING - No model available for component: electrical
+2025-04-11 20:46:20,616 - WARNING - No model available for component: engine
+2025-04-11 20:46:20,620 - WARNING - No model available for component: transmission
+2025-04-11 20:46:20,622 - WARNING - No model available for component: brakes
+2025-04-11 20:46:20,629 - WARNING - No model available for component: battery
+2025-04-11 20:46:20,631 - WARNING - No model available for component: electrical
+2025-04-11 20:46:22,642 - WARNING - No model available for component: engine
+2025-04-11 20:46:22,642 - WARNING - No model available for component: transmission
+2025-04-11 20:46:22,645 - WARNING - No model available for component: brakes
+2025-04-11 20:46:22,647 - WARNING - No model available for component: battery
+2025-04-11 20:46:22,649 - WARNING - No model available for component: electrical
+2025-04-11 20:46:24,661 - WARNING - No model available for component: engine
+2025-04-11 20:46:24,664 - WARNING - No model available for component: transmission
+2025-04-11 20:46:24,666 - WARNING - No model available for component: brakes
+2025-04-11 20:46:24,668 - WARNING - No model available for component: battery
+2025-04-11 20:46:24,678 - WARNING - No model available for component: electrical
+2025-04-11 20:46:26,687 - WARNING - No model available for component: engine
+2025-04-11 20:46:26,692 - WARNING - No model available for component: transmission
+2025-04-11 20:46:26,697 - WARNING - No model available for component: brakes
+2025-04-11 20:46:26,700 - WARNING - No model available for component: battery
+2025-04-11 20:46:26,703 - WARNING - No model available for component: electrical
+2025-04-11 20:46:28,716 - WARNING - No model available for component: engine
+2025-04-11 20:46:28,718 - WARNING - No model available for component: transmission
+2025-04-11 20:46:28,722 - WARNING - No model available for component: brakes
+2025-04-11 20:46:28,724 - WARNING - No model available for component: battery
+2025-04-11 20:46:28,727 - WARNING - No model available for component: electrical
+2025-04-11 20:46:30,733 - WARNING - No model available for component: engine
+2025-04-11 20:46:30,736 - WARNING - No model available for component: transmission
+2025-04-11 20:46:30,739 - WARNING - No model available for component: brakes
+2025-04-11 20:46:30,741 - WARNING - No model available for component: battery
+2025-04-11 20:46:30,742 - WARNING - No model available for component: electrical
+2025-04-11 20:46:32,747 - WARNING - No model available for component: engine
+2025-04-11 20:46:32,750 - WARNING - No model available for component: transmission
+2025-04-11 20:46:32,753 - WARNING - No model available for component: brakes
+2025-04-11 20:46:32,756 - WARNING - No model available for component: battery
+2025-04-11 20:46:32,759 - WARNING - No model available for component: electrical
+2025-04-11 20:46:34,761 - WARNING - No model available for component: engine
+2025-04-11 20:46:34,764 - WARNING - No model available for component: transmission
+2025-04-11 20:46:34,765 - WARNING - No model available for component: brakes
+2025-04-11 20:46:34,766 - WARNING - No model available for component: battery
+2025-04-11 20:46:34,767 - WARNING - No model available for component: electrical
+2025-04-11 20:46:36,777 - WARNING - No model available for component: engine
+2025-04-11 20:46:36,779 - WARNING - No model available for component: transmission
+2025-04-11 20:46:36,780 - WARNING - No model available for component: brakes
+2025-04-11 20:46:36,782 - WARNING - No model available for component: battery
+2025-04-11 20:46:36,784 - WARNING - No model available for component: electrical
+2025-04-11 20:46:38,789 - WARNING - No model available for component: engine
+2025-04-11 20:46:38,789 - WARNING - No model available for component: transmission
+2025-04-11 20:46:38,792 - WARNING - No model available for component: brakes
+2025-04-11 20:46:38,793 - WARNING - No model available for component: battery
+2025-04-11 20:46:38,794 - WARNING - No model available for component: electrical
+2025-04-11 20:46:40,803 - WARNING - No model available for component: engine
+2025-04-11 20:46:40,804 - WARNING - No model available for component: transmission
+2025-04-11 20:46:40,806 - WARNING - No model available for component: brakes
+2025-04-11 20:46:40,808 - WARNING - No model available for component: battery
+2025-04-11 20:46:40,810 - WARNING - No model available for component: electrical
+2025-04-11 20:46:42,821 - WARNING - No model available for component: engine
+2025-04-11 20:46:42,823 - WARNING - No model available for component: transmission
+2025-04-11 20:46:42,825 - WARNING - No model available for component: brakes
+2025-04-11 20:46:42,826 - WARNING - No model available for component: battery
+2025-04-11 20:46:42,827 - WARNING - No model available for component: electrical
+2025-04-11 20:46:44,836 - WARNING - No model available for component: engine
+2025-04-11 20:46:44,836 - WARNING - No model available for component: transmission
+2025-04-11 20:46:44,840 - WARNING - No model available for component: brakes
+2025-04-11 20:46:44,841 - WARNING - No model available for component: battery
+2025-04-11 20:46:44,844 - WARNING - No model available for component: electrical
+2025-04-11 20:46:46,850 - WARNING - No model available for component: engine
+2025-04-11 20:46:46,851 - WARNING - No model available for component: transmission
+2025-04-11 20:46:46,852 - WARNING - No model available for component: brakes
+2025-04-11 20:46:46,853 - WARNING - No model available for component: battery
+2025-04-11 20:46:46,853 - WARNING - No model available for component: electrical
+2025-04-11 20:46:48,855 - WARNING - No model available for component: engine
+2025-04-11 20:46:48,857 - WARNING - No model available for component: transmission
+2025-04-11 20:46:48,859 - WARNING - No model available for component: brakes
+2025-04-11 20:46:48,860 - WARNING - No model available for component: battery
+2025-04-11 20:46:48,861 - WARNING - No model available for component: electrical
+2025-04-11 20:46:50,874 - WARNING - No model available for component: engine
+2025-04-11 20:46:50,875 - WARNING - No model available for component: transmission
+2025-04-11 20:46:50,879 - WARNING - No model available for component: brakes
+2025-04-11 20:46:50,880 - WARNING - No model available for component: battery
+2025-04-11 20:46:50,881 - WARNING - No model available for component: electrical
+2025-04-11 20:46:52,895 - WARNING - No model available for component: engine
+2025-04-11 20:46:52,896 - WARNING - No model available for component: transmission
+2025-04-11 20:46:52,897 - WARNING - No model available for component: brakes
+2025-04-11 20:46:52,898 - WARNING - No model available for component: battery
+2025-04-11 20:46:52,898 - WARNING - No model available for component: electrical
+2025-04-11 20:46:54,900 - WARNING - No model available for component: engine
+2025-04-11 20:46:54,902 - WARNING - No model available for component: transmission
+2025-04-11 20:46:54,904 - WARNING - No model available for component: brakes
+2025-04-11 20:46:54,905 - WARNING - No model available for component: battery
+2025-04-11 20:46:54,907 - WARNING - No model available for component: electrical
+2025-04-11 20:46:56,925 - WARNING - No model available for component: engine
+2025-04-11 20:46:56,926 - WARNING - No model available for component: transmission
+2025-04-11 20:46:56,927 - WARNING - No model available for component: brakes
+2025-04-11 20:46:56,928 - WARNING - No model available for component: battery
+2025-04-11 20:46:56,929 - WARNING - No model available for component: electrical
+2025-04-11 20:46:58,933 - WARNING - No model available for component: engine
+2025-04-11 20:46:58,933 - WARNING - No model available for component: transmission
+2025-04-11 20:46:58,934 - WARNING - No model available for component: brakes
+2025-04-11 20:46:58,934 - WARNING - No model available for component: battery
+2025-04-11 20:46:58,935 - WARNING - No model available for component: electrical
+2025-04-11 20:47:00,936 - WARNING - No model available for component: engine
+2025-04-11 20:47:00,936 - WARNING - No model available for component: transmission
+2025-04-11 20:47:00,938 - WARNING - No model available for component: brakes
+2025-04-11 20:47:00,938 - WARNING - No model available for component: battery
+2025-04-11 20:47:00,939 - WARNING - No model available for component: electrical
+2025-04-11 20:47:02,971 - WARNING - No model available for component: engine
+2025-04-11 20:47:02,975 - WARNING - No model available for component: transmission
+2025-04-11 20:47:02,976 - WARNING - No model available for component: brakes
+2025-04-11 20:47:02,976 - WARNING - No model available for component: battery
+2025-04-11 20:47:02,976 - WARNING - No model available for component: electrical
+2025-04-11 20:47:04,983 - WARNING - No model available for component: engine
+2025-04-11 20:47:04,984 - WARNING - No model available for component: transmission
+2025-04-11 20:47:04,985 - WARNING - No model available for component: brakes
+2025-04-11 20:47:04,985 - WARNING - No model available for component: battery
+2025-04-11 20:47:04,986 - WARNING - No model available for component: electrical
+2025-04-11 20:47:06,989 - WARNING - No model available for component: engine
+2025-04-11 20:47:06,991 - WARNING - No model available for component: transmission
+2025-04-11 20:47:06,992 - WARNING - No model available for component: brakes
+2025-04-11 20:47:06,992 - WARNING - No model available for component: battery
+2025-04-11 20:47:06,993 - WARNING - No model available for component: electrical
+2025-04-11 20:47:09,010 - WARNING - No model available for component: engine
+2025-04-11 20:47:09,014 - WARNING - No model available for component: transmission
+2025-04-11 20:47:09,015 - WARNING - No model available for component: brakes
+2025-04-11 20:47:09,016 - WARNING - No model available for component: battery
+2025-04-11 20:47:09,016 - WARNING - No model available for component: electrical
+2025-04-11 20:47:11,042 - WARNING - No model available for component: engine
+2025-04-11 20:47:11,044 - WARNING - No model available for component: transmission
+2025-04-11 20:47:11,045 - WARNING - No model available for component: brakes
+2025-04-11 20:47:11,045 - WARNING - No model available for component: battery
+2025-04-11 20:47:11,046 - WARNING - No model available for component: electrical
+2025-04-11 20:47:13,056 - WARNING - No model available for component: engine
+2025-04-11 20:47:13,061 - WARNING - No model available for component: transmission
+2025-04-11 20:47:13,063 - WARNING - No model available for component: brakes
+2025-04-11 20:47:13,064 - WARNING - No model available for component: battery
+2025-04-11 20:47:13,065 - WARNING - No model available for component: electrical
+2025-04-11 20:47:15,072 - WARNING - No model available for component: engine
+2025-04-11 20:47:15,074 - WARNING - No model available for component: transmission
+2025-04-11 20:47:15,076 - WARNING - No model available for component: brakes
+2025-04-11 20:47:15,077 - WARNING - No model available for component: battery
+2025-04-11 20:47:15,078 - WARNING - No model available for component: electrical
+2025-04-11 20:47:17,085 - WARNING - No model available for component: engine
+2025-04-11 20:47:17,086 - WARNING - No model available for component: transmission
+2025-04-11 20:47:17,088 - WARNING - No model available for component: brakes
+2025-04-11 20:47:17,089 - WARNING - No model available for component: battery
+2025-04-11 20:47:17,090 - WARNING - No model available for component: electrical
+2025-04-11 20:47:19,102 - WARNING - No model available for component: engine
+2025-04-11 20:47:19,104 - WARNING - No model available for component: transmission
+2025-04-11 20:47:19,105 - WARNING - No model available for component: brakes
+2025-04-11 20:47:19,105 - WARNING - No model available for component: battery
+2025-04-11 20:47:19,106 - WARNING - No model available for component: electrical
+2025-04-11 20:47:21,114 - WARNING - No model available for component: engine
+2025-04-11 20:47:21,116 - WARNING - No model available for component: transmission
+2025-04-11 20:47:21,120 - WARNING - No model available for component: brakes
+2025-04-11 20:47:21,121 - WARNING - No model available for component: battery
+2025-04-11 20:47:21,121 - WARNING - No model available for component: electrical
+2025-04-11 20:47:23,131 - WARNING - No model available for component: engine
+2025-04-11 20:47:23,133 - WARNING - No model available for component: transmission
+2025-04-11 20:47:23,136 - WARNING - No model available for component: brakes
+2025-04-11 20:47:23,138 - WARNING - No model available for component: battery
+2025-04-11 20:47:23,140 - WARNING - No model available for component: electrical
+2025-04-11 20:47:25,143 - WARNING - No model available for component: engine
+2025-04-11 20:47:25,147 - WARNING - No model available for component: transmission
+2025-04-11 20:47:25,148 - WARNING - No model available for component: brakes
+2025-04-11 20:47:25,148 - WARNING - No model available for component: battery
+2025-04-11 20:47:25,149 - WARNING - No model available for component: electrical
+2025-04-11 20:47:27,159 - WARNING - No model available for component: engine
+2025-04-11 20:47:27,160 - WARNING - No model available for component: transmission
+2025-04-11 20:47:27,163 - WARNING - No model available for component: brakes
+2025-04-11 20:47:27,165 - WARNING - No model available for component: battery
+2025-04-11 20:47:27,168 - WARNING - No model available for component: electrical
+2025-04-11 20:47:29,173 - WARNING - No model available for component: engine
+2025-04-11 20:47:29,176 - WARNING - No model available for component: transmission
+2025-04-11 20:47:29,177 - WARNING - No model available for component: brakes
+2025-04-11 20:47:29,179 - WARNING - No model available for component: battery
+2025-04-11 20:47:29,179 - WARNING - No model available for component: electrical
+2025-04-11 20:47:31,187 - WARNING - No model available for component: engine
+2025-04-11 20:47:31,191 - WARNING - No model available for component: transmission
+2025-04-11 20:47:31,192 - WARNING - No model available for component: brakes
+2025-04-11 20:47:31,194 - WARNING - No model available for component: battery
+2025-04-11 20:47:31,195 - WARNING - No model available for component: electrical
+2025-04-11 20:47:33,203 - WARNING - No model available for component: engine
+2025-04-11 20:47:33,205 - WARNING - No model available for component: transmission
+2025-04-11 20:47:33,207 - WARNING - No model available for component: brakes
+2025-04-11 20:47:33,209 - WARNING - No model available for component: battery
+2025-04-11 20:47:33,210 - WARNING - No model available for component: electrical
+2025-04-11 20:47:35,218 - WARNING - No model available for component: engine
+2025-04-11 20:47:35,223 - WARNING - No model available for component: transmission
+2025-04-11 20:47:35,224 - WARNING - No model available for component: brakes
+2025-04-11 20:47:35,226 - WARNING - No model available for component: battery
+2025-04-11 20:47:35,227 - WARNING - No model available for component: electrical
+2025-04-11 20:47:37,231 - WARNING - No model available for component: engine
+2025-04-11 20:47:37,235 - WARNING - No model available for component: transmission
+2025-04-11 20:47:37,236 - WARNING - No model available for component: brakes
+2025-04-11 20:47:37,237 - WARNING - No model available for component: battery
+2025-04-11 20:47:37,239 - WARNING - No model available for component: electrical
+2025-04-11 20:47:39,245 - WARNING - No model available for component: engine
+2025-04-11 20:47:39,247 - WARNING - No model available for component: transmission
+2025-04-11 20:47:39,250 - WARNING - No model available for component: brakes
+2025-04-11 20:47:39,252 - WARNING - No model available for component: battery
+2025-04-11 20:47:39,253 - WARNING - No model available for component: electrical
+2025-04-11 20:47:41,258 - WARNING - No model available for component: engine
+2025-04-11 20:47:41,262 - WARNING - No model available for component: transmission
+2025-04-11 20:47:41,265 - WARNING - No model available for component: brakes
+2025-04-11 20:47:41,268 - WARNING - No model available for component: battery
+2025-04-11 20:47:41,269 - WARNING - No model available for component: electrical
+2025-04-11 20:47:43,277 - WARNING - No model available for component: engine
+2025-04-11 20:47:43,278 - WARNING - No model available for component: transmission
+2025-04-11 20:47:43,279 - WARNING - No model available for component: brakes
+2025-04-11 20:47:43,281 - WARNING - No model available for component: battery
+2025-04-11 20:47:43,282 - WARNING - No model available for component: electrical
+2025-04-11 20:47:45,290 - WARNING - No model available for component: engine
+2025-04-11 20:47:45,292 - WARNING - No model available for component: transmission
+2025-04-11 20:47:45,297 - WARNING - No model available for component: brakes
+2025-04-11 20:47:45,298 - WARNING - No model available for component: battery
+2025-04-11 20:47:45,298 - WARNING - No model available for component: electrical
+2025-04-11 20:47:47,302 - WARNING - No model available for component: engine
+2025-04-11 20:47:47,304 - WARNING - No model available for component: transmission
+2025-04-11 20:47:47,305 - WARNING - No model available for component: brakes
+2025-04-11 20:47:47,305 - WARNING - No model available for component: battery
+2025-04-11 20:47:47,306 - WARNING - No model available for component: electrical
+2025-04-11 20:47:49,315 - WARNING - No model available for component: engine
+2025-04-11 20:47:49,317 - WARNING - No model available for component: transmission
+2025-04-11 20:47:49,320 - WARNING - No model available for component: brakes
+2025-04-11 20:47:49,323 - WARNING - No model available for component: battery
+2025-04-11 20:47:49,323 - WARNING - No model available for component: electrical
+2025-04-11 20:47:51,333 - WARNING - No model available for component: engine
+2025-04-11 20:47:51,335 - WARNING - No model available for component: transmission
+2025-04-11 20:47:51,338 - WARNING - No model available for component: brakes
+2025-04-11 20:47:51,340 - WARNING - No model available for component: battery
+2025-04-11 20:47:51,341 - WARNING - No model available for component: electrical
+2025-04-11 20:47:53,347 - WARNING - No model available for component: engine
+2025-04-11 20:47:53,353 - WARNING - No model available for component: transmission
+2025-04-11 20:47:53,355 - WARNING - No model available for component: brakes
+2025-04-11 20:47:53,356 - WARNING - No model available for component: battery
+2025-04-11 20:47:53,356 - WARNING - No model available for component: electrical
+2025-04-11 20:47:55,362 - WARNING - No model available for component: engine
+2025-04-11 20:47:55,365 - WARNING - No model available for component: transmission
+2025-04-11 20:47:55,367 - WARNING - No model available for component: brakes
+2025-04-11 20:47:55,368 - WARNING - No model available for component: battery
+2025-04-11 20:47:55,369 - WARNING - No model available for component: electrical
+2025-04-11 20:47:57,376 - WARNING - No model available for component: engine
+2025-04-11 20:47:57,380 - WARNING - No model available for component: transmission
+2025-04-11 20:47:57,380 - WARNING - No model available for component: brakes
+2025-04-11 20:47:57,381 - WARNING - No model available for component: battery
+2025-04-11 20:47:57,382 - WARNING - No model available for component: electrical
+2025-04-11 20:47:59,392 - WARNING - No model available for component: engine
+2025-04-11 20:47:59,395 - WARNING - No model available for component: transmission
+2025-04-11 20:47:59,396 - WARNING - No model available for component: brakes
+2025-04-11 20:47:59,397 - WARNING - No model available for component: battery
+2025-04-11 20:47:59,398 - WARNING - No model available for component: electrical
+2025-04-11 20:48:01,406 - WARNING - No model available for component: engine
+2025-04-11 20:48:01,406 - WARNING - No model available for component: transmission
+2025-04-11 20:48:01,406 - WARNING - No model available for component: brakes
+2025-04-11 20:48:01,406 - WARNING - No model available for component: battery
+2025-04-11 20:48:01,406 - WARNING - No model available for component: electrical
+2025-04-11 20:48:03,421 - WARNING - No model available for component: engine
+2025-04-11 20:48:03,423 - WARNING - No model available for component: transmission
+2025-04-11 20:48:03,426 - WARNING - No model available for component: brakes
+2025-04-11 20:48:03,427 - WARNING - No model available for component: battery
+2025-04-11 20:48:03,427 - WARNING - No model available for component: electrical
+2025-04-11 20:48:05,436 - WARNING - No model available for component: engine
+2025-04-11 20:48:05,439 - WARNING - No model available for component: transmission
+2025-04-11 20:48:05,439 - WARNING - No model available for component: brakes
+2025-04-11 20:48:05,439 - WARNING - No model available for component: battery
+2025-04-11 20:48:05,443 - WARNING - No model available for component: electrical
+2025-04-11 20:48:07,449 - WARNING - No model available for component: engine
+2025-04-11 20:48:07,450 - WARNING - No model available for component: transmission
+2025-04-11 20:48:07,452 - WARNING - No model available for component: brakes
+2025-04-11 20:48:07,453 - WARNING - No model available for component: battery
+2025-04-11 20:48:07,454 - WARNING - No model available for component: electrical
+2025-04-11 20:48:09,465 - WARNING - No model available for component: engine
+2025-04-11 20:48:09,468 - WARNING - No model available for component: transmission
+2025-04-11 20:48:09,470 - WARNING - No model available for component: brakes
+2025-04-11 20:48:09,473 - WARNING - No model available for component: battery
+2025-04-11 20:48:09,474 - WARNING - No model available for component: electrical
+2025-04-11 20:48:11,479 - WARNING - No model available for component: engine
+2025-04-11 20:48:11,482 - WARNING - No model available for component: transmission
+2025-04-11 20:48:11,484 - WARNING - No model available for component: brakes
+2025-04-11 20:48:11,485 - WARNING - No model available for component: battery
+2025-04-11 20:48:11,486 - WARNING - No model available for component: electrical
+2025-04-11 20:48:13,510 - WARNING - No model available for component: engine
+2025-04-11 20:48:13,537 - WARNING - No model available for component: transmission
+2025-04-11 20:48:13,538 - WARNING - No model available for component: brakes
+2025-04-11 20:48:13,538 - WARNING - No model available for component: battery
+2025-04-11 20:48:13,541 - WARNING - No model available for component: electrical
+2025-04-11 20:48:15,558 - WARNING - No model available for component: engine
+2025-04-11 20:48:15,560 - WARNING - No model available for component: transmission
+2025-04-11 20:48:15,561 - WARNING - No model available for component: brakes
+2025-04-11 20:48:15,562 - WARNING - No model available for component: battery
+2025-04-11 20:48:15,562 - WARNING - No model available for component: electrical
+2025-04-11 20:48:17,568 - WARNING - No model available for component: engine
+2025-04-11 20:48:17,569 - WARNING - No model available for component: transmission
+2025-04-11 20:48:17,570 - WARNING - No model available for component: brakes
+2025-04-11 20:48:17,573 - WARNING - No model available for component: battery
+2025-04-11 20:48:17,575 - WARNING - No model available for component: electrical
+2025-04-11 20:48:19,578 - WARNING - No model available for component: engine
+2025-04-11 20:48:19,578 - WARNING - No model available for component: transmission
+2025-04-11 20:48:19,580 - WARNING - No model available for component: brakes
+2025-04-11 20:48:19,580 - WARNING - No model available for component: battery
+2025-04-11 20:48:19,581 - WARNING - No model available for component: electrical
+2025-04-11 20:48:21,589 - WARNING - No model available for component: engine
+2025-04-11 20:48:21,590 - WARNING - No model available for component: transmission
+2025-04-11 20:48:21,590 - WARNING - No model available for component: brakes
+2025-04-11 20:48:21,591 - WARNING - No model available for component: battery
+2025-04-11 20:48:21,591 - WARNING - No model available for component: electrical
+2025-04-11 20:48:23,593 - WARNING - No model available for component: engine
+2025-04-11 20:48:23,593 - WARNING - No model available for component: transmission
+2025-04-11 20:48:23,594 - WARNING - No model available for component: brakes
+2025-04-11 20:48:23,594 - WARNING - No model available for component: battery
+2025-04-11 20:48:23,595 - WARNING - No model available for component: electrical
+2025-04-11 20:48:25,599 - WARNING - No model available for component: engine
+2025-04-11 20:48:25,601 - WARNING - No model available for component: transmission
+2025-04-11 20:48:25,603 - WARNING - No model available for component: brakes
+2025-04-11 20:48:25,603 - WARNING - No model available for component: battery
+2025-04-11 20:48:25,607 - WARNING - No model available for component: electrical
+2025-04-11 20:48:27,611 - WARNING - No model available for component: engine
+2025-04-11 20:48:27,613 - WARNING - No model available for component: transmission
+2025-04-11 20:48:27,613 - WARNING - No model available for component: brakes
+2025-04-11 20:48:27,614 - WARNING - No model available for component: battery
+2025-04-11 20:48:27,614 - WARNING - No model available for component: electrical
+2025-04-11 20:48:29,621 - WARNING - No model available for component: engine
+2025-04-11 20:48:29,624 - WARNING - No model available for component: transmission
+2025-04-11 20:48:29,632 - WARNING - No model available for component: brakes
+2025-04-11 20:48:29,633 - WARNING - No model available for component: battery
+2025-04-11 20:48:29,634 - WARNING - No model available for component: electrical
+2025-04-11 20:48:31,641 - WARNING - No model available for component: engine
+2025-04-11 20:48:31,649 - WARNING - No model available for component: transmission
+2025-04-11 20:48:31,651 - WARNING - No model available for component: brakes
+2025-04-11 20:48:31,658 - WARNING - No model available for component: battery
+2025-04-11 20:48:31,659 - WARNING - No model available for component: electrical
+2025-04-11 20:48:33,664 - WARNING - No model available for component: engine
+2025-04-11 20:48:33,665 - WARNING - No model available for component: transmission
+2025-04-11 20:48:33,667 - WARNING - No model available for component: brakes
+2025-04-11 20:48:33,669 - WARNING - No model available for component: battery
+2025-04-11 20:48:33,670 - WARNING - No model available for component: electrical
+2025-04-11 20:48:35,676 - WARNING - No model available for component: engine
+2025-04-11 20:48:35,677 - WARNING - No model available for component: transmission
+2025-04-11 20:48:35,677 - WARNING - No model available for component: brakes
+2025-04-11 20:48:35,679 - WARNING - No model available for component: battery
+2025-04-11 20:48:35,679 - WARNING - No model available for component: electrical
+2025-04-11 20:48:37,684 - WARNING - No model available for component: engine
+2025-04-11 20:48:37,684 - WARNING - No model available for component: transmission
+2025-04-11 20:48:37,684 - WARNING - No model available for component: brakes
+2025-04-11 20:48:37,684 - WARNING - No model available for component: battery
+2025-04-11 20:48:37,684 - WARNING - No model available for component: electrical
+2025-04-11 20:48:39,693 - WARNING - No model available for component: engine
+2025-04-11 20:48:39,695 - WARNING - No model available for component: transmission
+2025-04-11 20:48:39,696 - WARNING - No model available for component: brakes
+2025-04-11 20:48:39,698 - WARNING - No model available for component: battery
+2025-04-11 20:48:39,699 - WARNING - No model available for component: electrical
+2025-04-11 20:48:41,711 - WARNING - No model available for component: engine
+2025-04-11 20:48:41,712 - WARNING - No model available for component: transmission
+2025-04-11 20:48:41,712 - WARNING - No model available for component: brakes
+2025-04-11 20:48:41,713 - WARNING - No model available for component: battery
+2025-04-11 20:48:41,714 - WARNING - No model available for component: electrical
+2025-04-11 20:48:43,759 - WARNING - No model available for component: engine
+2025-04-11 20:48:43,775 - WARNING - No model available for component: transmission
+2025-04-11 20:48:43,822 - WARNING - No model available for component: brakes
+2025-04-11 20:48:43,822 - WARNING - No model available for component: battery
+2025-04-11 20:48:43,823 - WARNING - No model available for component: electrical
+2025-04-11 20:48:45,832 - WARNING - No model available for component: engine
+2025-04-11 20:48:45,832 - WARNING - No model available for component: transmission
+2025-04-11 20:48:45,834 - WARNING - No model available for component: brakes
+2025-04-11 20:48:45,835 - WARNING - No model available for component: battery
+2025-04-11 20:48:45,835 - WARNING - No model available for component: electrical
+2025-04-11 20:48:47,842 - WARNING - No model available for component: engine
+2025-04-11 20:48:47,844 - WARNING - No model available for component: transmission
+2025-04-11 20:48:47,846 - WARNING - No model available for component: brakes
+2025-04-11 20:48:47,847 - WARNING - No model available for component: battery
+2025-04-11 20:48:47,848 - WARNING - No model available for component: electrical
+2025-04-11 20:48:49,856 - WARNING - No model available for component: engine
+2025-04-11 20:48:49,857 - WARNING - No model available for component: transmission
+2025-04-11 20:48:49,858 - WARNING - No model available for component: brakes
+2025-04-11 20:48:49,860 - WARNING - No model available for component: battery
+2025-04-11 20:48:49,861 - WARNING - No model available for component: electrical
+2025-04-11 20:48:51,871 - WARNING - No model available for component: engine
+2025-04-11 20:48:51,876 - WARNING - No model available for component: transmission
+2025-04-11 20:48:51,878 - WARNING - No model available for component: brakes
+2025-04-11 20:48:51,879 - WARNING - No model available for component: battery
+2025-04-11 20:48:51,880 - WARNING - No model available for component: electrical
+2025-04-11 20:48:53,884 - WARNING - No model available for component: engine
+2025-04-11 20:48:53,888 - WARNING - No model available for component: transmission
+2025-04-11 20:48:53,892 - WARNING - No model available for component: brakes
+2025-04-11 20:48:53,894 - WARNING - No model available for component: battery
+2025-04-11 20:48:53,895 - WARNING - No model available for component: electrical
+2025-04-11 20:48:55,924 - WARNING - No model available for component: engine
+2025-04-11 20:48:55,941 - WARNING - No model available for component: transmission
+2025-04-11 20:48:55,967 - WARNING - No model available for component: brakes
+2025-04-11 20:48:55,983 - WARNING - No model available for component: battery
+2025-04-11 20:48:56,012 - WARNING - No model available for component: electrical
+2025-04-11 20:48:58,016 - WARNING - No model available for component: engine
+2025-04-11 20:48:58,017 - WARNING - No model available for component: transmission
+2025-04-11 20:48:58,017 - WARNING - No model available for component: brakes
+2025-04-11 20:48:58,018 - WARNING - No model available for component: battery
+2025-04-11 20:48:58,019 - WARNING - No model available for component: electrical
+2025-04-11 20:49:00,027 - WARNING - No model available for component: engine
+2025-04-11 20:49:00,029 - WARNING - No model available for component: transmission
+2025-04-11 20:49:00,030 - WARNING - No model available for component: brakes
+2025-04-11 20:49:00,031 - WARNING - No model available for component: battery
+2025-04-11 20:49:00,031 - WARNING - No model available for component: electrical
+2025-04-11 20:49:02,035 - WARNING - No model available for component: engine
+2025-04-11 20:49:02,035 - WARNING - No model available for component: transmission
+2025-04-11 20:49:02,035 - WARNING - No model available for component: brakes
+2025-04-11 20:49:02,035 - WARNING - No model available for component: battery
+2025-04-11 20:49:02,035 - WARNING - No model available for component: electrical
+2025-04-11 20:49:04,040 - WARNING - No model available for component: engine
+2025-04-11 20:49:04,043 - WARNING - No model available for component: transmission
+2025-04-11 20:49:04,043 - WARNING - No model available for component: brakes
+2025-04-11 20:49:04,043 - WARNING - No model available for component: battery
+2025-04-11 20:49:04,044 - WARNING - No model available for component: electrical
+2025-04-11 20:49:06,047 - WARNING - No model available for component: engine
+2025-04-11 20:49:06,047 - WARNING - No model available for component: transmission
+2025-04-11 20:49:06,047 - WARNING - No model available for component: brakes
+2025-04-11 20:49:06,047 - WARNING - No model available for component: battery
+2025-04-11 20:49:06,047 - WARNING - No model available for component: electrical
+2025-04-11 20:49:08,054 - WARNING - No model available for component: engine
+2025-04-11 20:49:08,056 - WARNING - No model available for component: transmission
+2025-04-11 20:49:08,057 - WARNING - No model available for component: brakes
+2025-04-11 20:49:08,057 - WARNING - No model available for component: battery
+2025-04-11 20:49:08,057 - WARNING - No model available for component: electrical
+2025-04-11 20:49:10,066 - WARNING - No model available for component: engine
+2025-04-11 20:49:10,068 - WARNING - No model available for component: transmission
+2025-04-11 20:49:10,069 - WARNING - No model available for component: brakes
+2025-04-11 20:49:10,070 - WARNING - No model available for component: battery
+2025-04-11 20:49:10,070 - WARNING - No model available for component: electrical
+2025-04-11 20:49:12,073 - WARNING - No model available for component: engine
+2025-04-11 20:49:12,075 - WARNING - No model available for component: transmission
+2025-04-11 20:49:12,076 - WARNING - No model available for component: brakes
+2025-04-11 20:49:12,077 - WARNING - No model available for component: battery
+2025-04-11 20:49:12,077 - WARNING - No model available for component: electrical
+2025-04-11 20:49:14,084 - WARNING - No model available for component: engine
+2025-04-11 20:49:14,084 - WARNING - No model available for component: transmission
+2025-04-11 20:49:14,093 - WARNING - No model available for component: brakes
+2025-04-11 20:49:14,095 - WARNING - No model available for component: battery
+2025-04-11 20:49:14,103 - WARNING - No model available for component: electrical
+2025-04-11 20:49:16,121 - WARNING - No model available for component: engine
+2025-04-11 20:49:16,156 - WARNING - No model available for component: transmission
+2025-04-11 20:49:16,168 - WARNING - No model available for component: brakes
+2025-04-11 20:49:16,169 - WARNING - No model available for component: battery
+2025-04-11 20:49:16,213 - WARNING - No model available for component: electrical
+2025-04-11 20:49:18,244 - WARNING - No model available for component: engine
+2025-04-11 20:49:18,248 - WARNING - No model available for component: transmission
+2025-04-11 20:49:18,251 - WARNING - No model available for component: brakes
+2025-04-11 20:49:18,253 - WARNING - No model available for component: battery
+2025-04-11 20:49:18,254 - WARNING - No model available for component: electrical
+2025-04-11 20:49:20,272 - WARNING - No model available for component: engine
+2025-04-11 20:49:20,275 - WARNING - No model available for component: transmission
+2025-04-11 20:49:20,276 - WARNING - No model available for component: brakes
+2025-04-11 20:49:20,277 - WARNING - No model available for component: battery
+2025-04-11 20:49:20,278 - WARNING - No model available for component: electrical
+2025-04-11 20:49:22,284 - WARNING - No model available for component: engine
+2025-04-11 20:49:22,285 - WARNING - No model available for component: transmission
+2025-04-11 20:49:22,290 - WARNING - No model available for component: brakes
+2025-04-11 20:49:22,293 - WARNING - No model available for component: battery
+2025-04-11 20:49:22,295 - WARNING - No model available for component: electrical
+2025-04-11 20:49:24,303 - WARNING - No model available for component: engine
+2025-04-11 20:49:24,304 - WARNING - No model available for component: transmission
+2025-04-11 20:49:24,305 - WARNING - No model available for component: brakes
+2025-04-11 20:49:24,306 - WARNING - No model available for component: battery
+2025-04-11 20:49:24,307 - WARNING - No model available for component: electrical
+2025-04-11 20:49:26,318 - WARNING - No model available for component: engine
+2025-04-11 20:49:26,320 - WARNING - No model available for component: transmission
+2025-04-11 20:49:26,321 - WARNING - No model available for component: brakes
+2025-04-11 20:49:26,321 - WARNING - No model available for component: battery
+2025-04-11 20:49:26,322 - WARNING - No model available for component: electrical
+2025-04-11 20:49:28,329 - WARNING - No model available for component: engine
+2025-04-11 20:49:28,329 - WARNING - No model available for component: transmission
+2025-04-11 20:49:28,330 - WARNING - No model available for component: brakes
+2025-04-11 20:49:28,330 - WARNING - No model available for component: battery
+2025-04-11 20:49:28,331 - WARNING - No model available for component: electrical
+2025-04-11 20:49:30,345 - WARNING - No model available for component: engine
+2025-04-11 20:49:30,347 - WARNING - No model available for component: transmission
+2025-04-11 20:49:30,347 - WARNING - No model available for component: brakes
+2025-04-11 20:49:30,348 - WARNING - No model available for component: battery
+2025-04-11 20:49:30,349 - WARNING - No model available for component: electrical
+2025-04-11 20:49:32,360 - WARNING - No model available for component: engine
+2025-04-11 20:49:32,362 - WARNING - No model available for component: transmission
+2025-04-11 20:49:32,362 - WARNING - No model available for component: brakes
+2025-04-11 20:49:32,362 - WARNING - No model available for component: battery
+2025-04-11 20:49:32,362 - WARNING - No model available for component: electrical
+2025-04-11 20:49:34,374 - WARNING - No model available for component: engine
+2025-04-11 20:49:34,376 - WARNING - No model available for component: transmission
+2025-04-11 20:49:34,377 - WARNING - No model available for component: brakes
+2025-04-11 20:49:34,378 - WARNING - No model available for component: battery
+2025-04-11 20:49:34,378 - WARNING - No model available for component: electrical
+2025-04-11 20:49:36,388 - WARNING - No model available for component: engine
+2025-04-11 20:49:36,388 - WARNING - No model available for component: transmission
+2025-04-11 20:49:36,388 - WARNING - No model available for component: brakes
+2025-04-11 20:49:36,391 - WARNING - No model available for component: battery
+2025-04-11 20:49:36,391 - WARNING - No model available for component: electrical
+2025-04-11 20:49:38,400 - WARNING - No model available for component: engine
+2025-04-11 20:49:38,400 - WARNING - No model available for component: transmission
+2025-04-11 20:49:38,400 - WARNING - No model available for component: brakes
+2025-04-11 20:49:38,401 - WARNING - No model available for component: battery
+2025-04-11 20:49:38,401 - WARNING - No model available for component: electrical
+2025-04-11 20:49:40,411 - WARNING - No model available for component: engine
+2025-04-11 20:49:40,412 - WARNING - No model available for component: transmission
+2025-04-11 20:49:40,412 - WARNING - No model available for component: brakes
+2025-04-11 20:49:40,412 - WARNING - No model available for component: battery
+2025-04-11 20:49:40,413 - WARNING - No model available for component: electrical
+2025-04-11 20:49:42,417 - WARNING - No model available for component: engine
+2025-04-11 20:49:42,418 - WARNING - No model available for component: transmission
+2025-04-11 20:49:42,419 - WARNING - No model available for component: brakes
+2025-04-11 20:49:42,420 - WARNING - No model available for component: battery
+2025-04-11 20:49:42,421 - WARNING - No model available for component: electrical
+2025-04-11 20:49:44,428 - WARNING - No model available for component: engine
+2025-04-11 20:49:44,432 - WARNING - No model available for component: transmission
+2025-04-11 20:49:44,435 - WARNING - No model available for component: brakes
+2025-04-11 20:49:44,436 - WARNING - No model available for component: battery
+2025-04-11 20:49:44,437 - WARNING - No model available for component: electrical
+2025-04-11 20:49:46,446 - WARNING - No model available for component: engine
+2025-04-11 20:49:46,447 - WARNING - No model available for component: transmission
+2025-04-11 20:49:46,448 - WARNING - No model available for component: brakes
+2025-04-11 20:49:46,448 - WARNING - No model available for component: battery
+2025-04-11 20:49:46,449 - WARNING - No model available for component: electrical
+2025-04-11 20:49:48,461 - WARNING - No model available for component: engine
+2025-04-11 20:49:48,462 - WARNING - No model available for component: transmission
+2025-04-11 20:49:48,463 - WARNING - No model available for component: brakes
+2025-04-11 20:49:48,464 - WARNING - No model available for component: battery
+2025-04-11 20:49:48,465 - WARNING - No model available for component: electrical
+2025-04-11 20:49:50,475 - WARNING - No model available for component: engine
+2025-04-11 20:49:50,478 - WARNING - No model available for component: transmission
+2025-04-11 20:49:50,479 - WARNING - No model available for component: brakes
+2025-04-11 20:49:50,479 - WARNING - No model available for component: battery
+2025-04-11 20:49:50,480 - WARNING - No model available for component: electrical
+2025-04-11 20:49:52,490 - WARNING - No model available for component: engine
+2025-04-11 20:49:52,493 - WARNING - No model available for component: transmission
+2025-04-11 20:49:52,495 - WARNING - No model available for component: brakes
+2025-04-11 20:49:52,496 - WARNING - No model available for component: battery
+2025-04-11 20:49:52,497 - WARNING - No model available for component: electrical
+2025-04-11 20:49:54,503 - WARNING - No model available for component: engine
+2025-04-11 20:49:54,503 - WARNING - No model available for component: transmission
+2025-04-11 20:49:54,505 - WARNING - No model available for component: brakes
+2025-04-11 20:49:54,506 - WARNING - No model available for component: battery
+2025-04-11 20:49:54,507 - WARNING - No model available for component: electrical
+2025-04-11 20:49:56,511 - WARNING - No model available for component: engine
+2025-04-11 20:49:56,512 - WARNING - No model available for component: transmission
+2025-04-11 20:49:56,512 - WARNING - No model available for component: brakes
+2025-04-11 20:49:56,513 - WARNING - No model available for component: battery
+2025-04-11 20:49:56,513 - WARNING - No model available for component: electrical
+2025-04-11 20:49:58,516 - WARNING - No model available for component: engine
+2025-04-11 20:49:58,518 - WARNING - No model available for component: transmission
+2025-04-11 20:49:58,518 - WARNING - No model available for component: brakes
+2025-04-11 20:49:58,518 - WARNING - No model available for component: battery
+2025-04-11 20:49:58,520 - WARNING - No model available for component: electrical
+2025-04-11 20:50:00,529 - WARNING - No model available for component: engine
+2025-04-11 20:50:00,529 - WARNING - No model available for component: transmission
+2025-04-11 20:50:00,530 - WARNING - No model available for component: brakes
+2025-04-11 20:50:00,532 - WARNING - No model available for component: battery
+2025-04-11 20:50:00,533 - WARNING - No model available for component: electrical
+2025-04-11 20:50:02,544 - WARNING - No model available for component: engine
+2025-04-11 20:50:02,544 - WARNING - No model available for component: transmission
+2025-04-11 20:50:02,546 - WARNING - No model available for component: brakes
+2025-04-11 20:50:02,547 - WARNING - No model available for component: battery
+2025-04-11 20:50:02,548 - WARNING - No model available for component: electrical
+2025-04-11 20:50:04,559 - WARNING - No model available for component: engine
+2025-04-11 20:50:04,561 - WARNING - No model available for component: transmission
+2025-04-11 20:50:04,562 - WARNING - No model available for component: brakes
+2025-04-11 20:50:04,562 - WARNING - No model available for component: battery
+2025-04-11 20:50:04,563 - WARNING - No model available for component: electrical
+2025-04-11 20:50:06,566 - WARNING - No model available for component: engine
+2025-04-11 20:50:06,568 - WARNING - No model available for component: transmission
+2025-04-11 20:50:06,569 - WARNING - No model available for component: brakes
+2025-04-11 20:50:06,569 - WARNING - No model available for component: battery
+2025-04-11 20:50:06,570 - WARNING - No model available for component: electrical
+2025-04-11 20:50:08,573 - WARNING - No model available for component: engine
+2025-04-11 20:50:08,574 - WARNING - No model available for component: transmission
+2025-04-11 20:50:08,574 - WARNING - No model available for component: brakes
+2025-04-11 20:50:08,575 - WARNING - No model available for component: battery
+2025-04-11 20:50:08,575 - WARNING - No model available for component: electrical
+2025-04-11 20:50:10,580 - WARNING - No model available for component: engine
+2025-04-11 20:50:10,580 - WARNING - No model available for component: transmission
+2025-04-11 20:50:10,581 - WARNING - No model available for component: brakes
+2025-04-11 20:50:10,581 - WARNING - No model available for component: battery
+2025-04-11 20:50:10,581 - WARNING - No model available for component: electrical
+2025-04-11 20:50:12,585 - WARNING - No model available for component: engine
+2025-04-11 20:50:12,587 - WARNING - No model available for component: transmission
+2025-04-11 20:50:12,587 - WARNING - No model available for component: brakes
+2025-04-11 20:50:12,588 - WARNING - No model available for component: battery
+2025-04-11 20:50:12,588 - WARNING - No model available for component: electrical
+2025-04-11 20:50:14,593 - WARNING - No model available for component: engine
+2025-04-11 20:50:14,594 - WARNING - No model available for component: transmission
+2025-04-11 20:50:14,595 - WARNING - No model available for component: brakes
+2025-04-11 20:50:14,595 - WARNING - No model available for component: battery
+2025-04-11 20:50:14,596 - WARNING - No model available for component: electrical
+2025-04-11 20:50:16,597 - WARNING - No model available for component: engine
+2025-04-11 20:50:16,602 - WARNING - No model available for component: transmission
+2025-04-11 20:50:16,603 - WARNING - No model available for component: brakes
+2025-04-11 20:50:16,604 - WARNING - No model available for component: battery
+2025-04-11 20:50:16,604 - WARNING - No model available for component: electrical
+2025-04-11 20:50:18,614 - WARNING - No model available for component: engine
+2025-04-11 20:50:18,615 - WARNING - No model available for component: transmission
+2025-04-11 20:50:18,615 - WARNING - No model available for component: brakes
+2025-04-11 20:50:18,616 - WARNING - No model available for component: battery
+2025-04-11 20:50:18,616 - WARNING - No model available for component: electrical
+2025-04-11 20:50:20,627 - WARNING - No model available for component: engine
+2025-04-11 20:50:20,628 - WARNING - No model available for component: transmission
+2025-04-11 20:50:20,629 - WARNING - No model available for component: brakes
+2025-04-11 20:50:20,629 - WARNING - No model available for component: battery
+2025-04-11 20:50:20,630 - WARNING - No model available for component: electrical
+2025-04-11 20:50:22,639 - WARNING - No model available for component: engine
+2025-04-11 20:50:22,640 - WARNING - No model available for component: transmission
+2025-04-11 20:50:22,640 - WARNING - No model available for component: brakes
+2025-04-11 20:50:22,641 - WARNING - No model available for component: battery
+2025-04-11 20:50:22,642 - WARNING - No model available for component: electrical
+2025-04-11 20:50:24,691 - WARNING - No model available for component: engine
+2025-04-11 20:50:24,697 - WARNING - No model available for component: transmission
+2025-04-11 20:50:24,715 - WARNING - No model available for component: brakes
+2025-04-11 20:50:24,717 - WARNING - No model available for component: battery
+2025-04-11 20:50:24,718 - WARNING - No model available for component: electrical
+2025-04-11 20:50:26,737 - WARNING - No model available for component: engine
+2025-04-11 20:50:26,739 - WARNING - No model available for component: transmission
+2025-04-11 20:50:26,739 - WARNING - No model available for component: brakes
+2025-04-11 20:50:26,739 - WARNING - No model available for component: battery
+2025-04-11 20:50:26,740 - WARNING - No model available for component: electrical
+2025-04-11 20:50:28,743 - WARNING - No model available for component: engine
+2025-04-11 20:50:28,744 - WARNING - No model available for component: transmission
+2025-04-11 20:50:28,744 - WARNING - No model available for component: brakes
+2025-04-11 20:50:28,745 - WARNING - No model available for component: battery
+2025-04-11 20:50:28,745 - WARNING - No model available for component: electrical
+2025-04-11 20:50:30,750 - WARNING - No model available for component: engine
+2025-04-11 20:50:30,751 - WARNING - No model available for component: transmission
+2025-04-11 20:50:30,751 - WARNING - No model available for component: brakes
+2025-04-11 20:50:30,752 - WARNING - No model available for component: battery
+2025-04-11 20:50:30,752 - WARNING - No model available for component: electrical
+2025-04-11 20:50:32,765 - WARNING - No model available for component: engine
+2025-04-11 20:50:32,765 - WARNING - No model available for component: transmission
+2025-04-11 20:50:32,766 - WARNING - No model available for component: brakes
+2025-04-11 20:50:32,767 - WARNING - No model available for component: battery
+2025-04-11 20:50:32,768 - WARNING - No model available for component: electrical
+2025-04-11 20:50:34,778 - WARNING - No model available for component: engine
+2025-04-11 20:50:34,780 - WARNING - No model available for component: transmission
+2025-04-11 20:50:34,780 - WARNING - No model available for component: brakes
+2025-04-11 20:50:34,782 - WARNING - No model available for component: battery
+2025-04-11 20:50:34,782 - WARNING - No model available for component: electrical
+2025-04-11 20:50:36,785 - WARNING - No model available for component: engine
+2025-04-11 20:50:36,786 - WARNING - No model available for component: transmission
+2025-04-11 20:50:36,786 - WARNING - No model available for component: brakes
+2025-04-11 20:50:36,787 - WARNING - No model available for component: battery
+2025-04-11 20:50:36,787 - WARNING - No model available for component: electrical
+2025-04-11 20:50:37,076 - INFO - Stopping vehicle monitoring...
+2025-04-11 20:50:38,799 - INFO - Driver alert monitoring stopped
+2025-04-11 20:50:40,805 - INFO - Mobile alert monitoring stopped
+2025-04-11 20:50:40,807 - INFO - Vehicle monitoring stopped

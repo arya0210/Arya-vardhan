@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "enhanced_vpm/web_app.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "enhanced_vpm/templates/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/data",
+      "dest": "enhanced_vpm/web_app.py"
+    },
+    {
+      "src": "/alerts",
+      "dest": "enhanced_vpm/web_app.py"
+    },
+    {
+      "src": "/predictions",
+      "dest": "enhanced_vpm/web_app.py"
+    },
+    {
+      "src": "/component/(.*)",
+      "dest": "enhanced_vpm/web_app.py"
+    },
+    {
+      "src": "/history/(.*)",
+      "dest": "enhanced_vpm/web_app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "enhanced_vpm/templates/$1"
+    }
+  ]
+} 

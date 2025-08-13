@@ -1,0 +1,24 @@
+{
+  "name": "vehicle-predictive-maintenance",
+  "version": "1.0.0",
+  "description": "Enhanced Vehicle Predictive Maintenance System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": [
+    "vehicle",
+    "maintenance",
+    "predictive",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.0.0"
+  }
+} 

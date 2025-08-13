@@ -1,0 +1,48 @@
+[build]
+  publish = "enhanced_vpm/templates"
+  functions = "netlify/functions"
+  command = "cp -r enhanced_vpm/templates/* enhanced_vpm/templates/. && echo 'Build complete'"
+
+[dev]
+  publish = "enhanced_vpm/templates"
+  port = 5001
+
+[[redirects]]
+  from = "/data"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+  query = { path = "data" }
+
+[[redirects]]
+  from = "/alerts"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+  query = { path = "alerts" }
+
+[[redirects]]
+  from = "/predictions"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+  query = { path = "predictions" }
+
+[[redirects]]
+  from = "/component/*"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+  query = { path = "component" }
+
+[[redirects]]
+  from = "/history/*"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+  query = { path = "history" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
